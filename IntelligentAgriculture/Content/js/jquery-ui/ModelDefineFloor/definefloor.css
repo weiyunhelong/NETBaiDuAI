@@ -1,0 +1,101 @@
+﻿/*自定义楼层样式*/
+
+.div-radio
+{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    width: 115px;
+    background: url(/Style/image/ModelDefineFloor/yno.png) no-repeat left;
+    background-position-x: 0;
+    color: #B3B3B3;
+}
+
+.radio-none
+{
+    color: #B3B3B3;
+}
+
+.div-radio:hover
+{
+    cursor: pointer;
+}
+
+.radio-select
+{
+    color: #464647;
+    background: url(/Style/image/ModelDefineFloor/y.png) no-repeat left;
+    background-position-x: 0;
+}
+
+.s01
+{
+    font-size: 15px;
+    color: #333333;
+}
+
+/*添加自定义层按钮*/
+
+#btn-adddefinefloor
+{
+    border: none;
+    width: 100px;
+    height: 26px;
+    vertical-align: middle;
+    background: url(/Style/image/ModelDefineFloor/添加自定义层.png) no-repeat left;
+}
+
+
+    #btn-adddefinefloor:hover
+    {
+        cursor: pointer;
+        background: url(/Style/image/ModelDefineFloor/添加自定义层hov.png) no-repeat left;
+    }
+
+#revitContent
+{
+    display: none;
+    height: 266px;
+    margin: 15px 0 0 150px;
+    width: 300px;
+}
+
+
+#defineFloorLayer
+{   
+    position: absolute;
+    z-index: 2;
+    left:0;
+    top:0;
+    width:210px;
+    height:266px;
+}
+
+.btnGou
+{   
+    display:none;
+    border:none;
+    cursor:pointer;
+    height:14px;
+    width:16px;
+    vertical-align:middle;
+    background:url(/Style/image/ModelDefineFloor/dgou.png)
+}
+
+.btnCha
+{   
+    margin-left:5px;
+    display:none;
+    border:none;
+    cursor:pointer;
+    height:14px;
+    width:16px;
+    vertical-align:middle;
+    background:url(/Style/image/ModelDefineFloor/chacha.png)
+}
+
+/*#DefineFloorTree li a
+{
+    color:#B3B3B3;
+}*/

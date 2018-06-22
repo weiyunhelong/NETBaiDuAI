@@ -1,0 +1,107 @@
+﻿body {
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+.tableadd {
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
+    color: #333;
+    line-height: 35px;
+    width:90%;
+}
+
+    .tableadd td {
+        padding:0;
+    }
+
+.validatebox {
+    border: 1px solid #ccc;
+    background: #fff;
+    width: 194px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px;
+    padding: 0px 3px;
+}
+
+.txt_must {
+    color: #cc0000;
+}
+
+.btn-cancel {
+    width: 102px;
+    height: 42px;
+    background: url(/Content/Images/UploadButton/bt-qx.png) no-repeat right;
+}
+
+    .btn-cancel:hover {
+        background: url(/Content/Images/UploadButton/bt-qx1.png) no-repeat right;
+    }
+
+.btn-sub {
+    width: 102px;
+    height: 42px;
+    background: url(/Content/Images/UploadButton/bt-qd.png) no-repeat right;
+}
+
+    .btn-sub:hover {
+        background: url(/Content/Images/UploadButton/bt-qd1.png) no-repeat right;
+    }
+
+
+.btn-div a {
+    display: block;
+    cursor: pointer;
+    vertical-align: middle;
+    float: right;
+    margin: 0px 10px;
+}
+
+.btn-div {
+    border-top: 1px solid #eee;
+    padding-top: 19px;
+    height: 61px;
+}
+
+.layui-layer-setwin a {
+    width: 22px;
+    height: 22px;
+}
+
+.layui-layer-setwin .layui-layer-close1 {
+}
+
+.fontright {
+    text-align:right;
+    width:30%;
+}
+
+.fontleft {
+    text-align:left;
+}
+
+.td35 {
+  width:35%;
+} 
+
+.td65 {
+  width:65%;
+}
+
+.wordspacing {
+  word-spacing:26px;
+}
+
+.btnupload {
+    width: 142px;
+    height: 37px;
+    border: 0;
+    background: url('/Content/Images/UploadButton/bt-shc2.png') no-repeat left;
+    cursor: pointer;
+    float:right;
+}
+
+    .btnupload:hover {
+        background: url('/Content/Images/UploadButton/bt-shc2.png') no-repeat left;
+    }

@@ -1,0 +1,483 @@
+﻿
+* {
+     padding:0px;
+    margin:0px;
+}
+
+
+#Tree_Equipment .ztree li a.curSelectedNode
+        {
+            padding-top: 0px;
+            background-color: #485AEA;
+            color: #ffffff;
+            height: 20px;
+            border: 1px #FFB951 solid;
+            opacity: 0.8;
+        }
+
+ /*.texttear {
+    width:500px; height:120px;overflow:hidden; border:1px solid #D2D2D2;
+   }*/
+    .Que_buts {
+     width:80px;height:26px;
+     cursor:pointer;
+     border:none;
+     background-color:#F8F8F8;
+    }
+
+#btnBack
+{
+    width:97px;
+    height:33px;
+     cursor:pointer;
+     border:none;
+    background-color:#F8F8F8;
+}
+.property_name{
+    color:#000000;
+    font-weight:bold;
+}
+#BtnSeach {
+    background:url(../image/QualitySafety/sx.png) center;
+    
+}
+#BtnSeach:hover {
+    background:url(../image/QualitySafety/sx_hover.png) center;
+    
+}
+
+#BtnCancel {
+    background:url(../image/QualitySafety/qxsx.png) center;
+    
+}
+#BtnCancel:hover {
+    background:url(../image/QualitySafety/qxsx_hove.png) center;
+    
+}
+
+#bimGl {
+    background:url(../image/QualitySafety/BIM.png) center;
+    
+}
+#bimGl:hover {
+    background:url(../image/QualitySafety/BIM_hover.png) center;
+    
+}
+
+#btnInpint {
+    background:url(../image/QualitySafety/dr.png) center;
+    
+}
+#btnInpint:hover {
+    background:url(../image/QualitySafety/dr_hover.png) center;
+    
+}
+
+#btnExport {
+    background:url(../image/QualitySafety/dc.png) center;
+    
+}
+#btnExport:hover {
+    background:url(../image/QualitySafety/dc_hover.png) center;
+    
+}
+
+
+
+#QuaitySafetyAdd {
+    background:url(../image/QualitySafety/t.png) center;
+    
+}
+#QuaitySafetyAdd:hover {
+    background:url(../image/QualitySafety/t_sy.png) center;
+    
+}
+#QuaitySafetyCancel {
+    background:url(../image/QualitySafety/qx.png) center;
+    
+}
+#QuaitySafetyCancel:hover {
+    background:url(../image/QualitySafety/qx_1.png) center;
+    
+}
+
+#QuaitySafetyDel {
+    background:url(../image/QualitySafety/d.png) center;
+    
+}
+#QuaitySafetyDel:hover {
+    background:url(../image/QualitySafety/d_1.png) center;
+    
+}
+#QuaitySafetyDelete {
+        background:url(../image/QualitySafety/p1.png) center;
+}
+#QuaitySafetyDelete:hover {
+    background:url(../image/QualitySafety/p_sy.png) center;
+    
+}
+
+#table_Que .inputs {
+     width:70%; height:30px;border:1px solid #D2D2D2;
+}
+.uploadify-button {
+     margin:0;padding:0;
+     border: 1px solid #fff;
+}
+#Que_UpImg {
+    border: none;
+    background:url(../image/QualitySafety/btn3_1.png) center;
+}
+#Que_UpImg:hover {
+ background:url(../image/QualitySafety/btn3_2.png) center;
+ }
+
+#Que_LocationCoordinate {
+    background:url(../image/QualitySafety/btn1_1.png) center;
+}
+#Que_LocationCoordinate:hover {
+ background:url(../image/QualitySafety/btn1_2.png) center;
+ }
+
+/* 区域关联图片向左按钮*/
+#Add_ImgLeftButton {
+    border:none;
+    width: 16px; 
+    height: 68px;
+    background:url(../image/QualitySafety/btn_left_img.png) center;
+}
+#Add_ImgLeftButton:hover {
+     background:url(../image/QualitySafety/btn_left_sy.png) center;
+}
+/* 区域关联图片向右按钮*/
+#Add_ImgRightButton {
+    border:none;
+    width: 16px; 
+    height: 68px;
+    background:url(../image/QualitySafety/btn_right_img.png) center;
+}
+
+#Add_ImgRightButton:hover {
+     background:url(../image/QualitySafety/btn_right_sy.png) center;
+}
+
+/* 区域关联图片显示容器DIV*/
+#Area_ImgDiv {
+    position:relative;
+    width:100%;
+    height:82px;
+    margin-top:3px;
+}
+/* 区域关联图片向左显示DIV*/
+#Area_LeftDiv {
+    position:absolute;
+    width:16px;
+    height:68px;
+    margin-top:5px;
+}
+/* 区域关联图片向右显示DIV*/
+#Area_RightDiv {
+    float: right;
+    left:330px;
+    width:16px;
+    height:68px;
+    margin-top:5px;
+    margin-left:5px;
+}
+/* 隐藏显示区域关联图片DIV*/
+#Area_ImgDisplayDiv {
+    position:absolute;
+    left:20px;
+    width:312px;
+    height:68px;
+    margin-top:4px;
+    overflow:hidden;
+}
+/* 罗列区域关联图片列表DIV*/
+#Area_ImgListDiv {
+    float:left;
+    width:400px;
+    height:68px;
+    overflow:hidden;
+}
+
+/* 快照*/
+#photoButton {
+  border:none;
+  position: absolute;
+  width: 85px;
+  height: 31px;
+  bottom: 15px; 
+  left: 380px;
+  background:url(../image/QualitySafety/btn_kz_1.png) no-repeat left;
+  display:none;
+}
+
+#photoButton:hover
+{
+    background:url(../image/QualitySafety/btn_kz_2.png) no-repeat left;
+}
+
+
+#Que_Equipment {
+    background:url(../image/QualitySafety/btn2_1.png) center;
+}
+#Que_Equipment:hover {
+ background:url(../image/QualitySafety/btn2_2.png) center;
+ }
+
+#SubQue {    
+     background:url(../image/QualitySafety/btn4.png) center;
+}
+#SubQue:hover {
+ background:url(../image/QualitySafety/btn4_sy.png) center;
+ }
+
+#figure_Go {
+     background:url(../image/QualitySafety/btn5.png) center;
+}
+#figure_Go:hover {
+     background:url(../image/QualitySafety/btn5_sy.png) center;
+}
+#figure_out {
+     background:url(../image/QualitySafety/btn6.png) center;
+}
+#figure_out:hover {
+     background:url(../image/QualitySafety/btn6_sy.png) center;
+}
+
+/*处理*/
+
+#SubSolve {
+      background:url(../image/QualitySafety/btn4.png) center;
+}
+#SubSolve:hover {
+      background:url(../image/QualitySafety/btn4_sy.png) center;
+}
+ .rim_border td{
+     
+       height:70px;
+       border:1px solid #D2D2D2;
+       vertical-align : middle; 
+}
+   .rim_border td:first-child {
+        border-right:none;
+    }
+   .rim_border td:last-child {
+         border-left:none;
+         color:#000000;
+    }
+
+.rim1_border td {
+   border:1px solid #D2D2D2;
+}
+.rim2_border td {
+    border:1px solid #D2D2D2;
+}
+
+.rim1_border  td:first-child {
+    border-right:none;
+    border-bottom:none
+}
+.rim1_border  td:last-child {
+    border-left:none;
+    border-bottom:none
+}
+.rim2_border  td:first-child {
+    border-right:none;
+    border-top:none
+}
+.rim2_border  td:last-child {
+    border-left:none;
+    border-top:none
+}
+
+
+.right_ModelList {
+    width:54.8%;
+    height:100%;
+    float: left;
+    /*border: 1px solid blue;*/
+    position:relative;
+    
+}
+.Tree_Equipment {
+    border: 0px solid red;
+    margin: 20px 50px;
+    width: 90%;
+}
+.LocationCoordinate_Model {
+    border: 0px solid #000;
+    /*margin: 5px auto;
+    width: 99%;*/
+    width:100%;
+    height: 100%;
+    display: none;
+}
+
+
+
+    .type_sq {
+     
+        line-height: 4em;
+    }
+
+   #QuaityUl li{
+    float:left;
+    height:48px;
+    width:100px;
+    text-align:center;
+    line-height:48px;
+    font-size:20px;
+    cursor:pointer;
+    }
+    #IndexButDiv {
+        border-bottom:1px solid #F1EDED;
+        background:#FAFAFA;
+        width:100%; text-align:left;
+        height:50px;
+       
+    }
+    .handleBtn {
+     width:50px;
+     height:50px;
+    }
+    .Processedspace {
+     
+     margin-top:30px;
+     text-align:left;
+     margin-left:10px;
+     height:200px;
+     /*padding-bottom:30px;*/
+     
+    }
+       .Processedspace .stateImg {
+         height:34px;
+       width:175px;
+       display:block
+        }
+    /*未处理*/
+    #NoProcessed .stateDiv {
+        border-bottom: 2px solid #AC4850;
+
+    }
+  
+     /*处理中*/
+    #Processeding  .stateDiv{
+        border-bottom: 2px solid #4A90B4;
+
+    }
+    /*处理完成*/
+    #ProcessedOut .stateDiv{
+     border-bottom: 2px solid #71B158;
+
+    }
+    .handleBtn:first-child {
+      
+    }
+    /*#QuaitySafetyDelete {
+     background:url(../../image/QualitySafety/)
+    }*/
+    * {
+     margin: 0; padding: 0;
+    }
+
+    /*图片DIV*/
+    .ImageDiv {
+      margin-top:50px;
+    }
+    .QSimg {
+       margin: 5px; width: 170px; height: 130px;
+    }
+    .ImageDivMax:hover {
+    display:block;
+    }
+    .handleBtn {
+     width:97px;
+     height:33px;
+     margin-top:7px;
+     border:none;
+     cursor:pointer;
+    }
+    .AllCheck {
+    display:none;
+    }
+      .GCLhandleBtn {
+     width:80px;
+     height:33px;
+
+     border:none;
+     cursor:pointer;
+    }
+       .sxhandleBtn {
+     width:70px;
+     height:33px;
+
+     border:none;
+     cursor:pointer;
+    }
+      /*.PImg img {
+     width:80px;
+     height:80px;
+     border:1px solid #808080;
+     float:left;
+     margin:5px;
+     cursor:pointer;
+    }*/
+
+       .PImg {
+     width:80px;
+     height:80px;
+     border:1px solid #808080;
+     float:left;
+     margin:5px;
+     cursor:pointer;
+    }
+
+     .PImg img {
+     width:80px;
+     height:80px;              
+     cursor:pointer;
+    }
+        
+    /*重写上传Css*/
+    .uploadify-queue-item {
+     padding:0;
+     max-width:100%;
+    }
+    .uploadify-progress {
+    background:none;
+    margin-top:0px;
+    }
+    .uploadify-progress-bar {
+     background:none;
+     width:0px;
+     height:0px;
+    }
+
+    .Validation {
+     color:red;
+    }
+
+
+.uploadify-button
+{
+    border:none;
+}
+
+/**图片显示区域*/
+#ProcessImage
+{
+    width:100%;
+    height:100%;    
+}
+
+#left_Question
+{
+    overflow-y:auto;
+}
+
+.current_PImg
+{
+    border:1px solid red;
+}

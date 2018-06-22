@@ -1,0 +1,474 @@
+﻿html
+{
+    height: 100%;
+    width: 100%;
+}
+
+div, ul, li, h1, h2, h3, p, span, input, dl, dt, dd, table, form
+{
+    border: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    outline: none;
+}
+
+    input[type=button]
+    {
+        cursor: pointer;
+        outline: 0;
+    }
+
+button
+{
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    vertical-align: middle;
+}
+
+input[type=submit]
+{
+    cursor: pointer;
+}
+
+select
+{
+    vertical-align: middle;
+}
+
+label
+{
+    vertical-align: middle;
+}
+
+input[type=checkbox]
+{
+    vertical-align: middle;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+    a :hover
+    {
+        text-decoration: none;
+    }
+
+.clear
+{
+    clear: both;
+}
+
+body
+{
+    margin: 0px;
+    /*height: auto;*/
+    color: #333;
+    background: #fff;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+}
+
+.boxContent
+{
+    border: 2px solid #fff;
+    background: #fff;
+    /*margin: 20px 0px;*/
+}
+
+.cotTop
+{
+    height: 50px;
+    line-height: 50px;
+    margin: 0px 20px;
+}
+
+.cotMiddle
+{
+    padding: 0px 20px;
+}
+
+.search
+{
+    float: left;
+}
+
+.cotTop .button
+{
+    float: right;
+}
+/*搜索样式*/
+.form-select
+{
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px;
+    vertical-align: middle;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.form-control
+{
+    width: 188px;
+    height: 28px;
+    line-height: 30px;
+    padding: 0px 10px;
+    vertical-align: middle;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+.btn-primary
+{
+    background: url(/Content/Images/其他/search_btn_default.png) no-repeat right;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.btn_search
+{
+    background: url(/Content/Images/其他/search_btn_default.png) no-repeat right;
+    width: 35px;
+    height: 28px;
+    float: left;
+    margin-right: 10px;
+}
+
+    .btn_search:hover
+    {
+        background: url(/Content/Images/其他/search_btn_default.png) no-repeat right;
+    }
+
+.input-text
+{
+    float: left;
+    margin-right: 5px;
+}
+
+.input-group
+{
+    float: left;
+    margin-top: 10px;
+}
+
+/*按钮样式*/
+/**取消按钮**/
+.input-quxiao
+{
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 102px;
+    height: 42px;
+    background: url(/Content/Images/其他/cancel_button_default.png) no-repeat right;
+}
+
+    .input-quxiao:hover
+    {
+        background: url(/Content/Images/其他/cancel_button_pressed.png) no-repeat right;
+    }
+/**返回按钮**/
+.input-back
+{
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 58px;
+    height: 24px;
+    background: url(/Content/Images/其他/Return_button_default.png) no-repeat right;
+}
+
+    .input-back:hover
+    {
+        background: url(/Content/Images/其他/Return_button_pressed.png) no-repeat right;
+    }
+/**新增按钮**/
+.input-add
+{
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 80px;
+    height: 30px;
+    background: url(/Content/Images/其他/add_default_btn.png) no-repeat right;
+}
+
+    .input-add:hover
+    {
+        background: url(/Content/Images/其他/add_pressed_btn.png) no-repeat right;
+    }
+/**删除按钮**/
+.input-del
+{
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 80px;
+    height: 30px;
+    background: url(/Content/Images/其他/delete_icon_default.png) no-repeat right;
+}
+
+    .input-del:hover
+    {
+        background: url(/Content/Images/其他/delete_icon_selected2.png) no-repeat right;
+    }
+/**导入按钮**/
+.input-import
+{
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 80px;
+    height: 30px;
+    background: url(/Content/Images/其他/Import_default_btn.png) no-repeat right;
+}
+
+    .input-import:hover
+    {
+        background: url(/Content/Images/其他/Import_pressed_btn.png) no-repeat right;
+    }
+/**模板下载按钮**/
+.input-mubanxiazai
+{
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 80px;
+    height: 30px;
+    background: url(/Content/Images/其他/download_default_btn.png) no-repeat right;
+}
+
+    .input-mubanxiazai:hover
+    {
+        background: url(/Content/Images/其他/download_pressed_btn.png) no-repeat right;
+    }
+/**模板按钮**/
+.input-muban
+{
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 80px;
+    height: 30px;
+    background: url(/Content/Images/其他/template_default_btn.png) no-repeat right;
+}
+
+    .input-muban:hover
+    {
+        background: url(/Content/Images/其他/template_pressed_btn.png) no-repeat right;
+    }
+/**批量管理按钮**/
+.input-piliang
+{
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 80px;
+    height: 30px;
+    background: url(/Content/Images/其他/plgl_default_btn.png) no-repeat right;
+}
+
+    .input-piliang:hover
+    {
+        background: url(/Content/Images/其他/plgl_pressed_btn.png) no-repeat right;
+    }
+
+.input-paper
+{
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 58px;
+    height: 24px;
+    background: url(/Content/Images/Button/ico-chujuan.png) no-repeat right;
+}
+
+    .input-paper:hover
+    {
+        background: url(/Content/Images/Button/ico-chujuan1.png) no-repeat right;
+    }
+
+.input-rw
+{
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 88px;
+    height: 24px;
+    background: url(/Content/Images/Button/ico-tianjiarenwu.png) no-repeat right;
+}
+
+    .input-rw:hover
+    {
+        background: url(/Content/Images/Button/ico-tianjiarenwu1.png) no-repeat right;
+    }
+
+.input-sub
+{
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 100px;
+    height: 40px;
+    background: url(/Content/Images/UploadButton/bt-baocun1.png) no-repeat right;
+}
+
+    .input-sub:hover
+    {
+        background: url(/Content/Images/UploadButton/bt-baocun1-.2.png) no-repeat right;
+    }
+
+
+/**列表内的图标**/
+.listDetail
+{
+    vertical-align: middle;
+    width: 31px;
+    height: 31px;
+    background: url(/Content/Images/其他/drag_icon_default.png) no-repeat right;
+}
+
+    .listDetail:hover
+    {
+        width: 31px;
+        height: 31px;
+        background: url(/Content/Images/其他/drag_icon_selected.png) no-repeat right;
+    }
+
+.listEdit
+{
+    vertical-align: middle;
+    width: 31px;
+    height: 31px;
+    background: url(/Content/Images/其他/edit_icon_default.png) no-repeat right;
+}
+
+    .listEdit:hover
+    {
+        width: 31px;
+        height: 31px;
+        background: url(/Content/Images/其他/edit_icon_selected.png) no-repeat right;
+    }
+
+.listDel
+{
+    vertical-align: middle;
+    width: 31px;
+    height: 31px;
+    background: url(/Content/Images/其他/delete_icon_default.png) no-repeat right;
+}
+
+    .listDel:hover
+    {
+        width: 31px;
+        height: 31px;
+        background: url(/Content/Images/其他/delete_icon_selected.png) no-repeat right;
+    }
+
+.listMove
+{
+    vertical-align: middle;
+    width: 31px;
+    height: 31px;
+    border:none;
+    background: url(/Content/Images/其他/drag_icon_default.png) no-repeat right;
+}
+
+    .listMove:hover
+    {
+        width: 31px;
+        height: 31px;
+        background: url(/Content/Images/其他/drag_icon_selected.png) no-repeat right;
+    }
+
+/*表格样式*/
+.tableList
+{
+    table-layout: fixed;
+    width: 100%;
+    background: #fff;
+    line-height: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+
+    .tableList th
+    {
+        background: #eeeeee;
+        text-align: center;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .tableList tbody td
+    {
+        border-bottom: 1px solid #e5e5e5;
+        line-height: 24px;
+        height: 40px;
+        padding: 0px 10px;
+    }
+
+    .tableList tbody tr:hover
+    {
+        background: #f2f2f2;
+        cursor: pointer;
+    }
+/*.tableList tbody tr:last-child td {
+    border-bottom:none;
+}*/
+.btnupload
+{
+    width: 102px;
+    height: 32px;
+    border: 0;
+    background: url('/Content/Images/UploadButton/bt-shc2.png') no-repeat left;
+    float: right;
+    cursor: pointer;
+    margin-top: -30px;
+}
+
+    .btnupload:hover
+    {
+        background: url('/Content/Images/UploadButton/bt-shc2.png') no-repeat left;
+    }
+
+
+.btnuploadmb
+{
+    vertical-align: middle;
+    width: 88px;
+    height: 24px;
+    background: url('/Content/Images/Button/ico-xiazaimuban.png') no-repeat left;
+    cursor: pointer;
+}
+
+    .btnuploadmb:hover
+    {
+        background: url('/Content/Images/Button/ico-xiazaimuban-1.png') no-repeat left;
+    }
+
+/***layer弹窗确定按钮***/
+.btn-pop-ok
+{
+    width: 102px;
+    height: 42px;
+    background: url(/Content/Images/其他/OK_button_default.png) no-repeat right;
+    cursor: pointer;
+}
+
+    .btn-pop-ok:hover
+    {
+        background: url(/Content/Images/其他/OK_button_pressed.png) no-repeat right;
+    }
+/***layer弹窗取消按钮***/
+.btn-pop-cancel
+{
+    width: 102px;
+    height: 42px;
+    background: url(/Content/Images/其他/cancel_button_default.png) no-repeat right;
+    cursor: pointer;
+}
+
+    .btn-pop-cancel:hover
+    {
+        background: url(/Content/Images/其他/cancel_button_pressed.png) no-repeat right;
+    }

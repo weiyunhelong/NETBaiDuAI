@@ -1,0 +1,168 @@
+﻿body
+{
+    margin: 0 auto;
+    color: #666;
+    text-align: center;
+}
+
+div, ul, li, h1, h2, h3, p, span, input, dl, dt, dd, table, form
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    /*color: #666666;*/
+}
+
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: #888888;
+}
+
+    a img
+    {
+        border: 0;
+    }
+
+.width70
+{
+    width: 70px;
+}
+
+.width160
+{
+    width: 160px;
+}
+
+.listpage_contant
+{
+    width: 99.9%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.listpage_top
+{
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+}
+
+.listpageEquipment_top
+{
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+}
+
+.left_menu
+{
+    width: 70%;
+    text-align: left;
+    float: left;
+    margin-left: 15px;
+}
+
+.linkbtn
+{
+    display: inline-block;
+    height: 70px;
+    line-height: 85px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+    .linkbtn:hover
+    {
+        color: #2a43c1;
+    }
+
+.selectbtn
+{
+    color: #2a43c1;
+    background: url(../image/top_1.png) repeat-x;
+}
+
+.ddlProject
+{
+    color: #2a43c1;
+    width: 126px;
+    height: 23px;
+}
+
+.Project
+{
+    color: #2a43c1;
+    width: 150px;
+    height: 24px;
+}
+
+.search
+{
+    width: 77px;
+    height: 26px;
+    background: url(../image/btn-sousuo.png) no-repeat left;
+    border: 0;
+    margin-left: 5px;
+    *padding-bottom: 8px;
+}
+
+    .search:hover
+    {
+        background: url(../image/btn-sousuo-Top.png) no-repeat left;
+    }
+
+.textbox
+{
+    width: 228px;
+    height: 22px;
+    line-height: 20px;
+    padding-top: -1px;
+    color: #C1C1C1;
+}
+
+#Set
+{
+    width: 14px;
+    height: 13px;
+    border: none;
+    background: url(../image/Set.png) no-repeat left;
+}
+
+    #Set:hover
+    {
+        background: url(../image/Set_1.png) no-repeat left;
+    }
+
+#Exit
+{
+    width: 14px;
+    height: 13px;
+    border: none;
+    background: url(../image/Exit.png) no-repeat left;
+}
+
+    #Exit:hover
+    {
+        background: url(../image/Exit_1.png) no-repeat left;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

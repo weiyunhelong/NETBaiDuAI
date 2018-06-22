@@ -1,0 +1,163 @@
+﻿/*栅格开始*/
+.divTitletop
+{
+    height: 50px;
+    border-bottom: 1px solid #EFF2F6;
+    width: 100%;
+    line-height: 45px;
+}
+
+    .divTitletop img
+    {
+        margin-left: 20px;
+    }
+
+    .divTitletop a
+    {
+        cursor: pointer;
+        text-decoration: none;
+        color: #999999;
+        font-weight: bold;
+        padding-right: 25px;
+        font-size: 14px;
+    }
+
+        .divTitletop a:hover
+        {
+            color: #549215;
+        }
+
+.contentDiv
+{
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+}
+/*栅格结束*/
+
+/*首页的数据展示之环境监测*/
+.contentTable
+{
+    height: 300px;
+    text-align: center;
+}
+
+.Shouyetable
+{
+    table-layout: fixed;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+.sensorImgDiv
+{
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+
+.spanKey
+{
+    margin-top: 5px;
+    font-size: 16px;
+    display: block;
+}
+
+.valueSpan
+{
+    font-size: 20px;
+    color: #FF8216;
+}
+
+.valueStandSpan
+{
+    font-size: 14px;
+    padding-right: 10px;
+    display: block;
+}
+
+/*首页数据展示之视频*/
+.videoShowDiv
+{   
+    height: 300px;
+    text-align: center;
+}
+
+.videoSixShowDivfont
+{   
+    text-align:left;
+    padding:10px 0 0 20px;   
+    font-size:16px;
+    color:#fff;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.divVideoPlayDiv
+{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 50px;
+    cursor: pointer;
+}
+
+    .divVideoPlayDiv:hover
+    {
+        background: url(../../Images/首页/play.png) no-repeat 50% 50%;
+    }
+/*首页远程控制*/
+
+.sbImgDiv
+{
+    text-align: center;
+    height: 85px;
+    line-height: 85px;
+}
+
+.yckzShowDiv
+{
+    height: 300px;
+    text-align: center;
+}
+
+.spanyckzKey
+{
+    margin-top: 15px;
+    font-size: 16px;
+    display: block;
+}
+
+.BtnopenClose
+{
+    width: 87px;
+    height: 34px;
+    border: none;
+    margin-top: 35px;
+}
+
+.openSelect
+{
+    background: url(../../Images/首页/on_pressed.png);
+}
+
+.closeSelect
+{
+    background: url(../../Images/首页/off_default.png);
+}
+/*首页气象站*/
+.spanqxzKey
+{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #FFA85F;
+}
+
+.valueStandQxzSpan
+{
+    margin-top: 10px;
+    font-size: 14px;
+    display: block;
+}

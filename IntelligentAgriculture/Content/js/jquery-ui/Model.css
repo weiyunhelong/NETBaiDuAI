@@ -1,0 +1,540 @@
+﻿body {
+}
+
+#ModelEditLeft
+{
+    border-right: 1px solid #E6EEFC;
+    width:16.9%;
+    min-height:500px;
+    float:left;
+}
+
+#ModelEditRight
+{
+    width:83%;
+    min-height:500px;
+    float:left;    
+}
+
+#modelMenuRegion
+{
+    height:49px;
+    width:100%;    
+    background: #f8f8f8;
+    border-top: 1px solid #cacaca;    
+}
+
+#modelMenu
+{
+    height:100%;
+    width:100%;           
+}
+
+#modelEditRegion
+{
+    width:100%;    
+}
+
+#modelMenuLeft
+{
+    float:left;
+    width:40%;
+    height:100%;    
+}
+
+    #modelMenuLeft ul
+    {
+        list-style:none;
+        margin-left:0px;
+    }
+
+        #modelMenuLeft ul li
+        {
+            float: left;
+            display: inline-block;
+            line-height: 49px;
+        }
+        
+
+#addModel
+{       
+    vertical-align:middle;
+    margin-left:15px;
+    width:65px;
+    height:26px;
+    background: url(../image/ModelManage/btn_tj_1.png) no-repeat left;
+    border: 0;
+}
+
+#addModel:hover
+{   
+    background: url(../image/ModelManage/btn_3_sy.png) no-repeat left;   
+} 
+
+#delModel
+{   
+    vertical-align:middle;
+    margin-left:15px;
+    width:65px;
+    height:26px;
+    background: url(../image/ModelManage/btn_sc.png) no-repeat left;
+    border: 0;
+}
+
+#delModel:hover
+{   
+    background: url(../image/ModelManage/btn_2_sy.png) no-repeat left;   
+}    
+
+#editAllModel
+{   
+    vertical-align:middle;
+    margin-left:15px;
+    width:68px;
+    height:18px;
+    background: url(../image/ModelManage/1_nor.png) no-repeat left;
+    border: 0;
+}
+
+#editAllModel:hover
+{   
+    background: url(../image/ModelManage/1_sel.png) no-repeat left;   
+}
+
+/*模型管理菜单右部*/
+
+#modelMenuRight
+{
+    float:right;
+    width:45%;
+    height:100%;
+}
+
+#modelMenuRight ul
+{   
+    float:right;
+    list-style:none;
+    margin-left:0;    
+}  
+
+
+#modelMenuRight ul li
+{
+    float:left;
+    display:inline-block;
+    line-height:49px;
+}
+
+.modelMenu-rightBar
+{
+    vertical-align:middle;
+}
+  
+
+#btnModelSave
+{   
+    display:none;
+    margin-right:10px;
+    width:65px;
+    height:26px;
+    border:none;    
+    background: url(../image/ModelManage/btn_4_sy.png) no-repeat left;
+}
+
+#btnModelSave:hover{
+    background: url(../image/ModelManage/btn_4.png) no-repeat left;
+}    
+
+#btnModelCancel
+{   
+    display:none;
+    margin-right:10px;
+    width:65px;
+    height:26px;
+    border:none;    
+    background: url(../image/ModelManage/btn_5.png) no-repeat left;
+}
+
+#btnModelCancel:hover
+{
+    background: url(../image/ModelManage/btn_5_sy.png) no-repeat left;
+}
+
+
+
+#btnGoModel
+{
+    margin-right:10px;
+    width:22px;
+    height:22px;
+    border:none;    
+    background: url(../image/ModelManage/btn2_nor.png) no-repeat left;
+}
+
+#btnGoModel:hover
+{
+    background: url(../image/ModelManage/btn2_sel.png) no-repeat left;
+}
+
+#modelPage
+{
+    margin-right:10px;
+    /*width:300px;*/
+    height:49px;
+}
+
+
+/*模型内容编辑区域*/
+
+.btnSingleModelEdit
+{   
+    width:22px;
+    height:16px;
+    border:none;
+    background: url(../image/ModelManage/icon_7_1.png) no-repeat left;
+}
+
+.btnSingleModelEdit:hover 
+{
+    background: url(../image/ModelManage/icon_7_2.png) no-repeat left;
+}
+
+.btnSingleModelDelete
+{   
+    width:14px;
+    height:16px;
+    border:none;
+    background: url(../image/ModelManage/delete.png) no-repeat left;
+}
+
+.btnSingleModelDelete:hover 
+{
+    background: url(../image/ModelManage/delete_1.png) no-repeat left;
+}
+
+/*模型编辑区域 系统类型下拉框*/
+.btnSelfSysType
+{   
+    margin-top:8px;
+    width:112px;
+    height:28px;
+    border:none;
+    background: url(../image/ModelManage/b2.png) no-repeat left;
+}
+
+    .btnSelfSysType:hover
+    {
+         background: url(../image/ModelManage/b2_1.png) no-repeat left;
+    }
+
+.txtNewSystemType
+{
+    height:25px;
+    width:160px;
+}
+
+#sysTypeUl li:hover
+{
+    background-color: #485AEA;
+    color: #fff;
+}
+
+#btnCreateSysType:hover
+{
+    background-color:#485AEA;
+    
+}
+
+/**************************************************************************/
+
+
+/*****************************设计管理主界面*/
+
+/**调用设备*/
+
+.textSearch
+{   
+
+    width:210px;
+    height:25px;
+    margin-top:3px;
+    margin-left:5px;       
+    background: url(../image/ModelManage/search.png) no-repeat center left 5px;
+    border: 1px solid #999;
+    padding: 1px 1px 1px 25px;
+    color:gray;
+}
+
+.searchResult
+{
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1000000;
+}
+
+    .searchResult table
+    {
+        width: 100%;
+        color:#514A4F;
+    }
+
+        .searchResult table tr
+        {
+            cursor: pointer;
+        }
+
+            .searchResult table tr:hover
+            {
+                background: #485AEA;
+                color: #ffffff;
+            }
+
+            .searchResult table tr td
+            {
+                height: 31px;
+                line-height: 31px;
+                border-bottom: 1px solid #d6d6d6;
+                padding-left: 10px;
+            }
+
+            .searchResult table tr.current_equip_search
+            {
+                background: #485AEA;
+                color: #ffffff;
+            }
+
+
+.equipLocation
+{   
+    margin-left:5px;
+    width:44px;
+    height: 18px; 
+    padding: 4px;   
+    background: url(../image/ModelManage/dingwei.png) no-repeat left;
+    border: none;
+        
+}
+.equipLocation:hover
+{   
+    background: url(../image/ModelManage/dingwei_1.png) no-repeat left;
+}
+
+.equipAlone
+{
+    margin-left:8px;
+    width:50px;
+    height:16px;
+    padding: 4px;
+    border:none;    
+    background: url(../image/ModelManage/duli_1.png) no-repeat left;
+}
+
+    .equipAlone:hover
+    {
+        background: url(../image/ModelManage/duli.png) no-repeat left;
+    }
+
+    /**设计管理调用质量安全信息*/
+    .demo
+        {
+            width: 180px;
+            margin: 0 auto;
+            height: 90px;
+
+        }
+
+            
+        .menu_head
+        {
+            padding: 9px 30px;
+            cursor: pointer;
+            position: relative;
+            margin: 1px;
+            text-align: left;
+            padding-left: 35px;            
+            color: #000000;
+            font-size: 16px;
+            font-weight: bold;
+            /*background: url(../image/默认.png) center left no-repeat;*/
+            background: url(../image/ModelManage/xuanzhong_1.png) no-repeat center left 12px;
+            
+        }
+       
+        .menu_list .current
+        {
+            /*color: #fff;*/
+            /*background: url(../image/上移-选中.png) center left no-repeat;
+            background-color:#485AEA;*/
+             background: url(../image/ModelManage/xuanzhong.png) no-repeat center left 12px;
+        }
+       
+        .menu_body
+        {
+            display: none;
+        }
+
+            .menu_body a
+            {                   
+                display: block;
+                color: #000000;
+                text-align: left;
+                padding-left: 15px;
+                font-weight: 400;
+                font-size: 14px;
+                text-decoration: none;
+                height: 40px;
+                line-height: 40px;
+                
+            }
+
+                .menu_body a:hover
+                {
+                    color: white;
+                    font-weight: bold;
+                    text-decoration: none;
+                    background-color:#485AEA;
+                }
+
+            .menu_body .current_a
+            {
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+                background-color:#485AEA;
+            }
+
+
+            .menu_body a img
+            {
+                vertical-align:sub;
+            }
+
+            .menu_body a label
+            {
+                /*margin-left:15px;*/
+                padding-left:15px;
+                display:inline-block;               
+            }
+
+            .menu_body  hr
+            {
+                padding:0px;
+                border:1px solid #E7DFDF;
+                margin-left:42px;
+               margin-top:0px;
+               margin-bottom:0px;
+               
+            }
+
+            /*利用table布局显示质量安全问题*/
+
+            .menu_body table
+            {
+                width:100%;
+                table-layout:fixed;
+            }
+
+                .menu_body table tr
+                {
+                    height:38px;
+                }
+
+                .menu_body table tr.trLine
+                {
+                    height:0px;
+                }
+
+            .menu_body table tr td.tdImg
+            {
+                width:10%;
+                text-align:right;
+            }
+
+             .menu_body table tr td.tdDescript
+            {
+                padding-left:10px;
+                overflow:hidden;
+                text-overflow:ellipsis;
+                -moz-text-overflow:ellipsis;
+                cursor:pointer;
+            }
+
+                        .menu_body table tr td.tdLineImg
+                        {                              
+                            width:10%;
+                            padding-left:5%;
+                           border-bottom:1px solid #E7DFDF;
+                        }
+
+                        .menu_body table tr td.tdLineDes
+                        {
+                            border-bottom:1px solid #E7DFDF;
+                        }
+
+                .menu_body tr.trContent:hover
+                {
+                    color: #CB151C;
+                    font-weight: bold;                  
+                    /*background-color:#485AEA;*/
+                    background-color:#F3F6FC;   
+                    cursor:pointer;                
+                }
+
+            .menu_body .current_tr
+            {
+                color: #CB151C;
+                font-weight: bold;               
+                /*background-color:#485AEA;*/
+                background-color:#F3F6FC;
+                cursor:pointer;               
+            }
+
+    /**/
+
+    /**设计管理调用资料信息*/
+
+
+.textSearchComponent {
+    float: left;
+    width: 200px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 5px;
+    background: url(../image/ModelManage/search.png) no-repeat center left 5px;
+    border: 1px solid #999;
+    padding: 1px 1px 1px 25px;
+    color: gray;
+}
+
+
+.showComponentDiv table
+    {
+        width: 100%;
+    }
+
+        .showComponentDiv table tr
+        {
+            cursor: pointer;
+        }
+
+            .showComponentDiv table tr:hover
+            {
+                background: #485AEA;
+                color: #ffffff;
+            }
+
+            .showComponentDiv table tr td
+            {
+                height: 35px;
+                line-height: 35px;
+                border-bottom: 1px solid #d6d6d6;
+                padding-left: 10px;
+            }
+
+#showComponentTable tr.current_tr
+{
+    background: #485AEA;
+    color: #ffffff;
+}
+
+    /*****************/

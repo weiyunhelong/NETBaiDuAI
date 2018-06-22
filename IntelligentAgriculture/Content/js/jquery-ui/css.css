@@ -1,0 +1,2919 @@
+﻿body
+{
+    margin: 0 auto;
+    color: #666;
+    text-align: center;
+}
+
+div, ul, li, h1, h2, h3, p, span, input, dl, dt, dd, table, form
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    /*color: #666666;*/
+}
+
+input
+{
+    outline: none;
+}
+
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: #888888;
+}
+
+    a img
+    {
+        border: 0;
+    }
+
+.width70
+{
+    width: 70px;
+}
+
+.width160
+{
+    width: 140px;
+}
+
+.listpage_contant
+{
+    width: 99.9%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.listpage_top
+{
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+}
+
+.listpageEquipment_top
+{
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+}
+
+.left_menu
+{
+    width: 70%;
+    text-align: left;
+    float: left;
+    margin-left: 15px;
+}
+
+.linkbtn
+{
+    display: inline-block;
+    height: 70px;
+    line-height: 85px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+    .linkbtn:hover
+    {
+        color: #2a43c1;
+    }
+
+.selectbtn
+{
+    color: #2a43c1;
+    background: url(../image/top_1.png) repeat-x;
+}
+
+.ddlProject
+{
+    color: #2a43c1;
+    width: 126px;
+    height: 23px;
+}
+
+.Project
+{
+    color: #2a43c1;
+    width: 150px;
+    height: 24px;
+}
+
+.search
+{
+    width: 77px;
+    height: 26px;
+    background: url(../image/btn-sousuo.png) no-repeat left;
+    border: 0;
+    margin-left: 5px;
+    *padding-bottom: 8px;
+}
+
+    .search:hover
+    {
+        background: url(../image/btn-sousuo-Top.png) no-repeat left;
+    }
+
+.textbox
+{
+    width: 190px;
+    height: 22px;
+    line-height: 20px;
+    padding-top: -1px;
+    color: #C1C1C1;
+}
+
+.Seachtextbox
+{
+    width: 55%;
+    height: 22px;
+    line-height: 20px;
+    padding-top: -1px;
+    color: #C1C1C1;
+}
+
+#attributeMenu
+{
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 31px;
+    line-height: 31px;
+    white-space: nowrap;
+}
+
+.divComponent
+{
+    color: black;
+    float: left;
+    width: 48%;
+    height: 28px;
+    text-align: center;
+    border: 1px solid #A7AFEC;
+    cursor: pointer;
+}
+
+.curComponent
+{
+    color: white;
+    background-color: #485AEA;
+}
+
+#Set
+{
+    width: 14px;
+    height: 13px;
+    border: none;
+    background: url(../image/Set.png) no-repeat left;
+}
+
+    #Set:hover
+    {
+        background: url(../image/Set_1.png) no-repeat left;
+    }
+
+#Exit
+{
+    width: 14px;
+    height: 13px;
+    border: none;
+    background: url(../image/Exit.png) no-repeat left;
+}
+
+    #Exit:hover
+    {
+        background: url(../image/Exit_1.png) no-repeat left;
+    }
+
+/*设备管理系统模板页*/
+.demo
+{
+    width: 200px;
+    margin: 0 auto;
+    height: 90px;
+}
+
+    .demo h2
+    {
+        font-size: 20px;
+        height: 80px;
+        line-height: 35px;
+        margin: 40px 0 20px 0;
+        padding: 0 20px;
+    }
+
+.menu_head
+{
+    padding: 9px 30px;
+    cursor: pointer;
+    position: relative;
+    margin: 1px;
+    text-align: left;
+    padding-left: 35px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    background: url(../image/默认.png) center right no-repeat;
+}
+
+.heada
+{
+    color: #000000;
+    font-size: 14px;
+}
+
+.menu_list .current
+{
+    color: #fff;
+    background: url(../image/上移-选中.png) center right no-repeat;
+}
+
+.current .heada
+{
+    color: #fff;
+}
+
+.menu_body
+{
+    display: none;
+}
+
+    .menu_body a
+    {
+        display: block;
+        color: #000000;
+        text-align: left;
+        padding-left: 35px;
+        font-weight: 400;
+        font-size: 14px;
+        text-decoration: none;
+        height: 30px;
+        line-height: 30px;
+    }
+
+        .menu_body a:hover
+        {
+            color: #4959EA;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+    .menu_body .current_a
+    {
+        color: #4959EA;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+
+
+/*工程项目 Bengin*/
+.topSeach
+{
+    width: 100%;
+    background-color: #F8F8F8;
+    border-bottom: 1px solid #E6EEFC;
+    /*height: 40px;*/
+}
+
+.criterionuser
+{
+    width: 19.9%;
+    /*height: 630px;*/
+    border-right: 1px solid #E6EEFC;
+    /*border-top: 1px solid #c0c2c1;*/
+    min-height: 500px;
+    float: left;
+}
+
+
+
+    .criterionuser table
+    {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .criterionuser table tr td
+        {
+            font-size: 12px;
+        }
+
+
+.criterioncontent
+{
+    font-size: 14px;
+    color: #888888;
+    float: left;
+    padding-left: 10px;
+    margin-left: 10px;
+    cursor: default;
+}
+
+    .criterioncontent a:hover
+    {
+        text-decoration: underline;
+    }
+
+.fanhui
+{
+    width: 100%;
+    height: 30px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #7A7A7A;
+    border-bottom: 1px solid #EAEAEA;
+    /*border-left: 1px solid #EAEAEA;*/
+    text-align: left;
+}
+
+.tag_index
+{
+    width: 100%;
+    height: 45px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #2a43c1;
+    font-weight: 700;
+    /*border-top: 2px solid #AEBFF5;*/
+    /*border-left: 1px solid #EAEAEA;*/
+    text-align: left;
+}
+
+
+
+
+.jbxx table tr
+{
+    height: 40px;
+    border-top: 1px solid #F0EFF3;
+}
+
+#gengduo:hover
+{
+    color: #4959ea;
+}
+
+.jbxx table
+{
+    width: 100%;
+    margin-left: 10px;
+    padding-right: 5px;
+    border: 1px solid #F0EFF3;
+}
+
+
+.xmgx table
+{
+    width: 100%;
+    margin-left: 5px;
+    border-top: 1px solid #F0EFF3;
+    border-bottom: 1px solid #F0EFF3;
+}
+
+    .xmgx table tr
+    {
+        height: 40px;
+        border-top: 1px solid #F0EFF3;
+    }
+
+.gctp table
+{
+    width: 100%;
+    height: 362px;
+    margin-left: 5px;
+    border: 1px solid #F0EFF3;
+}
+
+.gctpimg table
+{
+    height: 362px;
+    margin-left: 5px;
+    border: 1px solid #F0EFF3;
+}
+
+.jbxx table td
+{
+    border-top: 1px solid #E6EEFC;
+    margin: 10px;
+    width: 770px;
+    color: #535353;
+}
+
+.insertProject
+{
+    width: 77px;
+    height: 15px;
+    background: url(../image/btn_创建项目.png) no-repeat left;
+    border: 0;
+}
+
+    .insertProject:hover
+    {
+        background: url(../image/btn_创建项目_上移.png) no-repeat left;
+    }
+
+.imgxinjian
+{
+    width: 44px;
+    height: 18px;
+    background: url(../image/icon_1.png) no-repeat left;
+    border: 0;
+}
+
+    .imgxinjian:hover
+    {
+        background: url(../image/icon_1_1.png) no-repeat left;
+    }
+
+.imgdelete
+{
+    width: 44px;
+    height: 18px;
+    border: 0;
+    background: url(../image/icon_2.png) no-repeat left;
+}
+
+    .imgdelete:hover
+    {
+        background: url(../image/icon_2_1.png) no-repeat left;
+    }
+
+
+.resourceTypeClass
+{
+    width: 103px;
+    height: 18px;
+    border: 0;
+    background: url(../image/zl.png) no-repeat left;
+}
+
+    .resourceTypeClass:hover
+    {
+        background: url(../image/zl_1.png) no-repeat left;
+    }
+
+.img_Area
+{
+    width: 50px;
+    height: 63px;
+    margin: 2px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.imgdeleteUser
+{
+    width: 14px;
+    height: 16px;
+    border: 0;
+    background: url(../image/delete.png) no-repeat left;
+}
+
+    .imgdeleteUser:hover
+    {
+        background: url(../image/delete_1.png) no-repeat left;
+    }
+
+.imgSave
+{
+    width: 44px;
+    height: 18px;
+    border: 0;
+    background: url(../image/icon_9_1.png) no-repeat left;
+}
+
+    .imgSave:hover
+    {
+        background: url(../image/icon_9_2.png) no-repeat left;
+    }
+
+.imgshangchuang
+{
+    width: 44px;
+    height: 18px;
+    background: url(../image/icon_8.png) no-repeat left;
+    border: 0;
+}
+
+    .imgshangchuang:hover
+    {
+        background: url(../image/icon_8_1.png) no-repeat left;
+    }
+
+.change:hover
+{
+    color: #2a43c1;
+}
+
+.Edit
+{
+    width: 74px;
+    height: 21px;
+    border: none;
+    float: right;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    background: url(../image/btn_bj.png) no-repeat left;
+}
+
+.Save
+{
+    width: 74px;
+    height: 21px;
+    border: none;
+    display: none;
+    float: right;
+    margin: 7px;
+    background: url(../image/btn_save_1.png) no-repeat left;
+}
+
+.Cancel
+{
+    width: 74px;
+    height: 21px;
+    border: none;
+    float: right;
+    display: none;
+    margin: 7px;
+    /*margin-right: 7px;*/
+    background: url(../image/btn_cancel_1.png) no-repeat left;
+}
+
+.Confirm
+{
+    width: 59px;
+    height: 25px;
+    border: none;
+    float: right;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    background: url(../image/btn_em_02.png) no-repeat left;
+}
+
+.ResourceCancel
+{
+    background: url(../image/btn_cancel_01.png) no-repeat left;
+    width: 59px;
+    height: 25px;
+    border: none;
+    float: right;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+
+    .ResourceCancel:hover
+    {
+        background: url(../image/btn_cancel_02.png) no-repeat left;
+    }
+
+.Confirm:hover
+{
+    background: url(../image/btn_em_01.png) no-repeat left;
+}
+
+.Save:hover
+{
+    background: url(../image/btn_save_2.png) no-repeat left;
+}
+
+.Cancel:hover
+{
+    background: url(../image/btn_cancel_2.png) no-repeat left;
+}
+
+.Edit:hover
+{
+    background: url(../image/btn_bj_shangyi.png) no-repeat left;
+}
+
+.ProjectLi li:hover
+{
+    background-color: #485AEA;
+}
+
+.EditJS
+{
+    display: block;
+    text-align: Left;
+    width: 230px;
+    line-height: 25px;
+    font-family: Microsoft YaHei;
+    height: 25px;
+}
+
+.validateTips
+{
+    border: 1px solid transparent;
+    padding: 1em;
+    text-align: left;
+}
+/*工程项目 End*/
+
+.fastSelect
+{
+    width: 478px;
+    height: 26px;
+    z-index: 2;
+    position: absolute;
+    top: 10px;
+    left: 293px;
+}
+
+    .fastSelect .SelectDIV
+    {
+        width: 186px;
+        height: 26px;
+        line-height: 26px;
+        float: left;
+        cursor: default;
+    }
+
+        .fastSelect .SelectDIV div
+        {
+            background: #000000;
+            color: #ffffff;
+            filter: alpha(opacity=50);
+            -moz-opacity: 0.5;
+            opacity: 0.5;
+            float: left;
+            margin-left: 5px;
+            height: 26px;
+            width: 17px;
+            line-height: 26px;
+            cursor: pointer;
+        }
+
+    .fastSelect .changebackground:hover
+    {
+        background: #2957c7;
+    }
+
+#dialogCreate input
+{
+    font-size: 12px;
+}
+
+.morefloor
+{
+    width: 126px;
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+
+    .morefloor div
+    {
+        width: 126px;
+        height: 26px;
+        line-height: 26px;
+        background: #000000;
+        color: #ffffff;
+        filter: alpha(opacity=50);
+        -moz-opacity: 0.5;
+        opacity: 0.5;
+        margin-top: 1px;
+        cursor: pointer;
+    }
+
+        .morefloor div:hover
+        {
+            background: #2957c7;
+        }
+
+.menu_three
+{
+    width: 100%;
+    height: 40px;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+    .menu_three div
+    {
+        width: 85px;
+        height: 31px;
+        line-height: 31px;
+        margin: 5px 0 0 5px;
+        cursor: pointer;
+        float: left;
+    }
+
+    .menu_three .showoperation
+    {
+        background: url(../image/NewModelManage/btn_1.png) no-repeat;
+    }
+
+    .menu_three .showoperationClick
+    {
+        background: url(../image/NewModelManage/btn_1_1.png) no-repeat;
+    }
+
+    .menu_three .showoperation:hover
+    {
+        background: url(../image/NewModelManage/btn_1_1.png) no-repeat;
+    }
+
+    .menu_three .showcolor
+    {
+        background: url(../image/NewModelManage/btn_2.png) no-repeat;
+    }
+
+    .menu_three .showcolorClick
+    {
+        background: url(../image/NewModelManage/btn_2_1.png) no-repeat;
+    }
+
+    .menu_three .showcolor:hover
+    {
+        background: url(../image/NewModelManage/btn_2_1.png) no-repeat;
+    }
+
+    .menu_three .showShikou
+    {
+        background: url(../image/NewModelManage/btn_6.png) no-repeat;
+        float: right;
+        margin-right: 10px;
+    }
+
+        .menu_three .showShikou:hover
+        {
+            background: url(../image/NewModelManage/btn_6_1.png) no-repeat;
+        }
+
+    /*.menu_three .showZiyouchakan
+    {
+        background: url(../image/NewModelManage/btn_5.png) no-repeat;
+        float: right;
+    }
+
+        .menu_three .showZiyouchakan:hover
+        {
+            background: url(../image/NewModelManage/btn_5_1.png) no-repeat;
+        }*/
+
+
+    /*.menu_three .showManyou
+    {
+        background: url(../image/NewModelManage/btn_4.png) no-repeat;
+        float: right;
+    }
+
+        .menu_three .showManyou:hover
+        {
+            background: url(../image/NewModelManage/btn_4_1.png) no-repeat;
+        }*/
+
+    .menu_three .modelViewManyou
+    {
+        background: url(../image/NewModelManage/btn_4.png) no-repeat;
+        float: right;
+    }
+
+        .menu_three .modelViewManyou:hover
+        {
+            background: url(../image/NewModelManage/btn_4_1.png) no-repeat;
+        }
+
+    .menu_three .modelViewZiyouchakan
+    {
+        background: url(../image/NewModelManage/btn_5.png) no-repeat;
+        float: right;
+    }
+
+        .menu_three .modelViewZiyouchakan:hover
+        {
+            background: url(../image/NewModelManage/btn_5_1.png) no-repeat;
+        }
+
+    .menu_three .showGuiwei
+    {
+        background: url(../image/NewModelManage/btn_3.png) no-repeat;
+        float: right;
+    }
+
+        .menu_three .showGuiwei:hover
+        {
+            background: url(../image/NewModelManage/btn_3_1.png) no-repeat;
+        }
+
+    .menu_three .showattribute
+    {
+        background: url(../image/shuxing_btn_2.png) no-repeat;
+    }
+
+    .menu_three .showattributeClick
+    {
+        background: url(../image/shuxing_btn_2_click.png) no-repeat;
+    }
+
+    .menu_three .showattribute:hover
+    {
+        background: url(../image/shuxing_btn_2_hover.png) no-repeat;
+    }
+
+    .menu_three .showCancelLocation
+    {
+        display: none;
+        width: 80px;
+        font-size: 14px;
+        color: white;
+        background-color: #444444;
+        text-align: center;
+    }
+
+        .menu_three .showCancelLocation:hover
+        {
+            opacity: 0.8;
+            font-weight: 700;
+        }
+
+.operation
+{
+    width: 240px;
+    height: 592px;
+    background: url(../image/operation_bg.png);
+    color: #ffffff;
+    z-index: 2;
+    position: absolute;
+    top: 43px;
+    left: 10px;
+    display: none;
+}
+
+    .operation div
+    {
+        color: #ffffff;
+    }
+
+    .operation .floorList
+    {
+        width: 221px;
+        height: 234px;
+        text-align: left;
+        background: url(../image/operation_floor_bg.png);
+        color: #ffffff;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-top: 5px;
+        overflow-y: auto;
+    }
+
+        .operation .floorList div
+        {
+            width: 194px;
+            height: 18px;
+            line-height: 18px;
+            padding-left: 20px;
+        }
+
+            .operation .floorList div:hover
+            {
+                cursor: pointer;
+                background: #485AEA;
+            }
+
+    .operation .colorList
+    {
+        width: 221px;
+        height: 104px;
+        text-align: left;
+        background: url(../image/operation_floor_bg.png);
+        color: #ffffff;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-top: 5px;
+        overflow: hidden;
+    }
+
+        .operation .colorList .colorbody
+        {
+            width: 208px;
+            height: 91px;
+            border: 1px solid #ffffff;
+            margin-left: 5px;
+            margin-top: 3px;
+        }
+
+            .operation .colorList .colorbody .divcss
+            {
+                width: 11px;
+                height: 11px;
+                margin: 0;
+                padding: 0;
+                border: 1px solid #7d7d7d;
+                float: left;
+                cursor: pointer;
+            }
+
+            .operation .colorList .colorbody .divcssClick
+            {
+                width: 11px;
+                height: 11px;
+                margin: 0;
+                padding: 0;
+                border: 1px solid #000000;
+                float: left;
+                cursor: pointer;
+            }
+
+            .operation .colorList .colorbody .divcss:hover
+            {
+                border: 1px solid #000000;
+            }
+
+            .operation .colorList .colorbody .divcssClick:hover
+            {
+                border: 1px solid #000000;
+            }
+
+    .operation .floorList ul li a span
+    {
+        color: #ffffff;
+    }
+
+    .operation .floorList ul li a:hover
+    {
+        cursor: pointer;
+        background: #485AEA;
+        text-decoration: none;
+    }
+
+    .operation .floorList::-webkit-scrollbar
+    {
+        width: 6px;
+        height: 6px;
+    }
+
+    .operation .floorList::-webkit-scrollbar-track-piece
+    {
+        background-color: #1d222a;
+        -webkit-border-radius: 6px;
+    }
+
+    .operation .floorList::-webkit-scrollbar-thumb:vertical
+    {
+        height: 5px;
+        background-color: #444b4e;
+        -webkit-border-radius: 6px;
+    }
+
+    .operation .floorList::-webkit-scrollbar-thumb:horizontal
+    {
+        width: 5px;
+        background-color: yellow;
+        -webkit-border-radius: 6px;
+    }
+
+    .operation .componentList
+    {
+        width: 221px;
+        height: 387px;
+        text-align: left;
+        background: url(../image/operation_floor_bg.png);
+        color: #ffffff;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-top: 5px;
+        overflow-y: auto;
+    }
+
+        .operation .componentList table
+        {
+            width: 100%;
+        }
+
+        .operation .componentList tr:hover
+        {
+            cursor: default;
+            background: #485AEA;
+        }
+
+        .operation .componentList tr td
+        {
+            color: #ffffff;
+            padding-left: 20px;
+            height: 24px;
+            line-height: 24px;
+        }
+
+            .operation .componentList tr td div
+            {
+                margin: 0;
+                padding: 0;
+            }
+
+
+        .operation .componentList::-webkit-scrollbar
+        {
+            width: 6px;
+            height: 6px;
+        }
+
+        .operation .componentList::-webkit-scrollbar-track-piece
+        {
+            background-color: #1d222a;
+            -webkit-border-radius: 6px;
+        }
+
+        .operation .componentList::-webkit-scrollbar-thumb:vertical
+        {
+            height: 5px;
+            background-color: #444b4e;
+            -webkit-border-radius: 6px;
+        }
+
+        .operation .componentList::-webkit-scrollbar-thumb:horizontal
+        {
+            width: 5px;
+            background-color: yellow;
+            -webkit-border-radius: 6px;
+        }
+
+.colorSave
+{
+    width: 74px;
+    height: 21px;
+    border: none;
+    background: url(../image/btn_save_2.png);
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.btnSave
+{
+    width: 74px;
+    height: 21px;
+    border: none;
+    background: url(../image/btn_save_2.png);
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.btnCancel
+{
+    width: 74px;
+    height: 21px;
+    border: none;
+    background: url(../image/btn_cancel_1.png);
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.progressBar
+{
+    z-index: 99;
+    width: 100%;
+    height: 620px;
+    position: absolute;
+    background: #E8EBEE;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.attributeEdit
+{
+    height: 16px;
+    line-height: 16px;
+    background: url(../image/icon_7_1.png) no-repeat;
+    border: none;
+    padding-left: 22px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.attributeLocation
+{
+    height: 16px;
+    line-height: 16px;
+    background: url(../image/icon_6_1.png) no-repeat;
+    border: none;
+    padding-left: 22px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.attributeTitle
+{
+    width: 282px;
+    margin-top: 5px;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+
+    .attributeTitle span
+    {
+        display: block;
+        float: left;
+        width: 250px;
+        color: #000000;
+        font-size: 14px;
+        margin-left: 10px;
+        font-weight: 700;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .attributeTitle img
+    {
+        float: left;
+        margin-top: 6px;
+    }
+
+.attributeBody
+{
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #f3f3f3;
+    color: #000000;
+    width: 100%;
+}
+
+    .attributeBody tr th
+    {
+        font-weight: 400;
+        height: 34px;
+        line-height: 34px;
+        background: #fafafa;
+        width: 93px;
+        /*border-bottom: 1px solid #f3f3f3;
+        border-right: 1px solid #d6d6d6;
+        padding-left: 8px;*/
+        border: 1px solid #d6d6d6;
+        min-width: 93px;
+        text-align: center;
+        border-top: none;
+        border-right: none;
+    }
+
+    .attributeBody tr td
+    {
+        height: 34px;
+        line-height: 34px;
+        /*border-bottom: 1px solid #f3f3f3;*/
+        border: 1px solid #d6d6d6;
+        /*padding-left: 30px;*/
+        text-align: center;
+        border-top: none;
+        border-right: none;
+    }
+
+.attributeEditBody
+{
+    border-top: 1px solid #d6d6d6;
+    color: #000000;
+    width: 100%;
+}
+
+    .attributeEditBody tr th
+    {
+        font-weight: 400;
+        height: 34px;
+        line-height: 34px;
+        background: #fafafa;
+        width: 93px;
+        /*border-bottom: 1px solid #d6d6d6;
+        border-right: 1px solid #d6d6d6;
+        padding-left: 8px;*/
+        text-align: center;
+        border: 1px solid #d6d6d6;
+        border-top: none;
+        border-right: none;
+        min-width: 93px;
+    }
+
+    .attributeEditBody tr td
+    {
+        height: 34px;
+        line-height: 34px;
+        /*border-bottom: 1px solid #d6d6d6;*/
+        border: 1px solid #d6d6d6;
+        border-top: none;
+        border-right: none;
+        text-align: center;
+    }
+
+    .attributeEditBody tr th input
+    {
+        text-align: center;
+    }
+
+    .attributeEditBody tr td input
+    {
+        padding-left: 10px;
+    }
+
+.daeBody
+{
+    width: 100%;
+    border-top: 2px solid #aebdf8;
+}
+
+    .daeBody table
+    {
+        width: 100%;
+        font-size: 14px;
+        font-family: "SimSun";
+    }
+
+        .daeBody table tr th
+        {
+            background: #eaf0fe;
+            color: #6680d4;
+            height: 26px;
+            line-height: 26px;
+        }
+
+        .daeBody table tr td
+        {
+            background: #ffffff;
+            color: #000000;
+            height: 38px;
+            line-height: 38px;
+            border-bottom: 1px solid #ededed;
+            text-align: center;
+            /*text-align:left;
+            padding-left:5px;*/
+        }
+
+.selectbox
+{
+    width: 171px;
+    height: 26px;
+    line-height: 26px;
+    color: #000000;
+    padding-left: 10px;
+}
+
+.btnSearch
+{
+    margin-top: 1px;
+    width: 26px;
+    height: 26px;
+    border: 0;
+    background: url(../image/btn_search_1.png) no-repeat;
+    cursor: pointer;
+    float: left;
+    margin-left: 10px;
+}
+
+    .btnSearch:hover
+    {
+        background: url(../image/btn_search_2.png) no-repeat;
+    }
+
+.icon_delA
+{
+    width: 14px;
+    height: 16px;
+    background: url(../image/delete.png) no-repeat;
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.searchDIV
+{
+    position: absolute;
+    top: 32px;
+    left: 0;
+    padding-left: 5px;
+    width: 200px;
+    height: 590px;
+    background: #ffffff;
+    display: none;
+}
+
+.searchResult
+{
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1000000;
+}
+
+    .searchResult table
+    {
+        width: 100%;
+    }
+
+        .searchResult table tr
+        {
+            cursor: pointer;
+        }
+
+            .searchResult table tr:hover
+            {
+                background: #485AEA;
+                color: #ffffff;
+            }
+
+            .searchResult table tr td
+            {
+                height: 31px;
+                line-height: 31px;
+                border-bottom: 1px solid #d6d6d6;
+                padding-left: 10px;
+            }
+
+.btnAddKey
+{
+    background: url(../image/icon_3.png) no-repeat 30%;
+    width: 96px;
+    height: 25px;
+    line-height: 25px;
+    color: #454545;
+    border: 1px solid #c9c9c9;
+    text-align: center;
+    padding-left: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.modelBar
+{
+    height: 37px;
+    width: 100%;
+    background: #f8f8f8;
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+}
+
+    .modelBar ul
+    {
+        height: 37px;
+        width: 100%;
+    }
+
+        .modelBar ul li
+        {
+            width: 57px;
+            height: 28px;
+            line-height: 28px;
+            cursor: pointer;
+            float: left;
+            margin-top: 3px;
+            font-size: 12px;
+            color: #000;
+            font-family: "SimSun";
+            border: 1px solid #384FC5;
+        }
+
+    /*.modelBar ul li:hover
+            {
+                color: #fff;
+                 background: #384FC5;
+            }*/
+
+    .modelBar .modelLi
+    {
+        color: #fff;
+        background: #384FC5;
+    }
+
+.attributeBtnDIV
+{
+    float: left;
+    margin-right: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+    .attributeBtnDIV .attributeBtn
+    {
+        border: none;
+        background: url(../image/btn_attribute.png) no-repeat center center;
+        width: 50px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .attributeBtnDIV .attributeBtnClick
+    {
+        border: none;
+        background: url(../image/btn_attribute_hover.png) no-repeat center center;
+        width: 50px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .attributeBtnDIV .attributeBtn:hover, .attributeBtnClick:hover
+    {
+        background: url(../image/btn_attribute_hover.png) no-repeat center center;
+    }
+
+.Bimguanlian
+{
+    border: none;
+    background: url(../image/NewModelManage/btn_bim_down.png) no-repeat center center;
+    width: 73px;
+    height: 19px;
+    cursor: pointer;
+    vertical-align: super;
+}
+
+    .Bimguanlian:hover
+    {
+        background: url(../image/NewModelManage/btn_bim_down_1.png) no-repeat center center;
+    }
+
+
+/*.XilaBimguanlian
+{
+    border: none;
+    background: url(../image/NewModelManage/btn_bim_down.png) no-repeat center center;
+    width: 73px;
+    height: 19px;
+    cursor: pointer;
+    vertical-align: super;
+}
+
+    .XilaBimguanlian:hover
+    {
+        background: url(../image/NewModelManage/btn_bim_down_1.png) no-repeat center center;
+    }*/
+
+
+
+.BimguanlianUp
+{
+    border: none;
+    background: url(../image/NewModelManage/btn_bim_up.png) no-repeat center center;
+    width: 73px;
+    height: 19px;
+    cursor: pointer;
+    vertical-align: super;
+}
+
+    .BimguanlianUp:hover
+    {
+        background: url(../image/NewModelManage/btn_bim_up_1.png) no-repeat center center;
+    }
+
+
+.ModelUpload
+{
+    border: none;
+    background: url(../image/NewModelManage/btn_14.png) no-repeat center center;
+    width: 98px;
+    height: 26px;
+    cursor: pointer;
+}
+
+    .ModelUpload:hover
+    {
+        background: url(../image/NewModelManage/btn_14_1.png) no-repeat center center;
+    }
+
+.prev:hover
+{
+    background: #485AEA;
+    color: #fff;
+}
+
+.next:hover
+{
+    background: #485AEA;
+    color: #fff;
+}
+
+.pagination a:hover
+{
+    background: #485AEA;
+    color: #fff;
+}
+/*资料管理begin*/
+.splitter1 .mini-splitter-pane1-button
+{
+    background: url(../image/zuo_.png) no-repeat;
+    width: 9px;
+}
+
+.splitter1 .mini-splitter-pane2-button
+{
+    background: url(../image/you_.png) no-repeat;
+    width: 9px;
+}
+
+.resourctTableTR
+{
+    background-color: #EAF0FE;
+    font-size: 12px;
+    color: #A5B7EE;
+    height: 40px;
+}
+
+.resourctTable tr td
+{
+    border-right: 1px solid #F2F2F6;
+    border-bottom: 1px solid #F2F2F6;
+}
+
+.resourctTable
+{
+    table-layout: fixed;
+    /*border-collapse: collapse;*/
+    float: left;
+    width: 100%;
+}
+
+.css_modelView
+{
+    width: 79px;
+    height: 24px;
+    border: none;
+    background: #fff;
+    color: #6878B2;
+    background: url(../image/btn_mo.png) no-repeat left;
+}
+
+    .css_modelView:hover
+    {
+        background: url(../image/btn_mo_1.png) no-repeat left;
+    }
+
+.l-grid-body-table tr td
+{
+    border-right: 1px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
+}
+
+.EditResource
+{
+    float: right;
+    width: 100%;
+}
+
+.CompleteInput
+{
+    background: url(../image/btn_com_01.png) no-repeat left;
+    border: none;
+    width: 59px;
+    height: 25px;
+    float: right;
+    margin: 10px;
+}
+
+    .CompleteInput:hover
+    {
+        background: url(../image/btn_com_02.png) no-repeat left;
+    }
+
+.CancelResource
+{
+    background: url(../image/btn_cancel_01.png) no-repeat left;
+    border: none;
+    width: 59px;
+    height: 25px;
+    float: right;
+    margin: 10px;
+}
+
+    .CancelResource:hover
+    {
+        background: url(../image/btn_cancel_02.png) no-repeat left;
+    }
+
+.addRoleCance
+{
+    background: url(../image/btn_cancel_01.png) no-repeat left;
+    border: none;
+    width: 59px;
+    height: 25px;
+    float: left;
+}
+
+    .addRoleCance:hover
+    {
+        background: url(../image/btn_cancel_02.png) no-repeat left;
+    }
+
+.select
+{
+    background: url(../image/icon_4_1.png);
+    width: 22px;
+    height: 16px;
+    border: none;
+}
+
+    .select:hover
+    {
+        background: url(../image/icon_4_2.png) no-repeat left;
+    }
+
+.dowload:hover
+{
+    background: url(../image/icon_5_2.png) no-repeat left;
+}
+
+.dowload
+{
+    background: url(../image/icon_5_1.png);
+    width: 22px;
+    height: 16px;
+    border: none;
+}
+
+/*.postion
+{
+    background: url(../image/icon_6_1.png);
+    width: 22px;
+    height: 16px;
+    border: none;
+}
+
+    .postion:hover
+    {
+        background: url(../image/icon_6_2.png) no-repeat left;
+    }*/
+
+.edit
+{
+    background: url(../image/icon_7_1.png);
+    width: 22px;
+    height: 16px;
+    border: none;
+}
+
+    .edit:hover
+    {
+        background: url(../image/icon_7_2.png) no-repeat left;
+    }
+
+.editRole
+{
+    background: url(../image/icon_edit_1.png);
+    width: 44px;
+    height: 18px;
+    border: none;
+}
+
+    .editRole:hover
+    {
+        background: url(../image/icon_edit_2.png) no-repeat left;
+    }
+
+.remove
+{
+    background: url(../image/icon_10_1.png);
+    width: 16px;
+    height: 16px;
+    border: none;
+}
+
+    .remove:hover
+    {
+        background: url(../image/icon_10_2.png) no-repeat left;
+    }
+
+.glgjCss
+{
+    background: url(../image/glgj_btn_1.png) no-repeat left;
+    border: none;
+    width: 81px;
+    height: 24px;
+}
+
+    .glgjCss:hover
+    {
+        background: url(../image/glgj_btn_1_1.png) no-repeat left;
+    }
+
+.gllbCss
+{
+    background: url(../image/gllb_btn_2.png) no-repeat left;
+    border: none;
+    width: 81px;
+    height: 24px;
+}
+
+    .gllbCss:hover
+    {
+        background: url(../image/gllb_btn_2_1.png) no-repeat left;
+    }
+
+/*资料管理end*/
+
+/*用户管理begin*/
+.topSeach_user
+{
+    width: 100%;
+    background: #F9F9F9;
+    border-bottom: 1px solid #cccccc;
+    height: 40px;
+    text-align: left;
+}
+
+
+
+    .topSeach_user ul li
+    {
+        height: 32px;
+        line-height: 40px;
+        text-align: center;
+        float: left;
+        border-left: none;
+    }
+
+        .topSeach_user ul li input
+        {
+            width: 80px;
+            border: none;
+            height: 40px;
+            line-height: 32px;
+            color: #0b5ba5;
+            cursor: pointer;
+            background-image: url(../image/top_1.png);
+        }
+
+
+
+.tagselect
+{
+    background: #ffffff;
+    color: #fcfcfc;
+}
+
+.linkUser
+{
+    display: inline-block;
+    width: 78px;
+    height: 41px;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.selectbtn
+{
+    background: #ffffff;
+    border-top: 3px solid;
+}
+/*用户管理End*/
+
+
+/*角色管理Begin*/
+.RoleContentDiv
+{
+    width: 100%;
+    height: 625px;
+    border-top: 2px solid #B1BCFD;
+    border-bottom: 1px solid #CECFF5;
+    border-left: 1px solid #CECFF5;
+    float: left;
+}
+
+.RoleHiddenContentDiv
+{
+    width: 100%;
+    height: 556px;
+    border-top: 2px solid #B1BCFD;
+    border-bottom: 1px solid #CECFF5;
+    border-left: 1px solid #CECFF5;
+    float: left;
+}
+
+.ContentLeft
+{
+    width: 20%;
+    border-right: 1px solid #CECFF5;
+    float: left;
+}
+
+    .ContentLeft ul li
+    {
+        height: 30px;
+        line-height: 30px;
+        border-bottom: 1px solid #E6EEFC;
+    }
+
+.RoleLi
+{
+    overflow-y: scroll;
+    height: 625px;
+    *margin-top: 10px;
+}
+
+.RoleHiddenLi
+{
+    overflow-y: scroll;
+    height: 556px;
+    *margin-top: 10px;
+}
+
+.RoleLi li:hover
+{
+    background-color: #485AEA;
+}
+
+.UserRolecontent
+{
+    font-size: 14px;
+    color: #888888;
+    float: left;
+    padding-left: 10px;
+    margin-left: 10px;
+    cursor: default;
+}
+
+    .UserRolecontent a:hover
+    {
+        text-decoration: underline;
+    }
+
+.ContentRight
+{
+    margin: 20px;
+    width: 97.9%;
+    float: left;
+    border-bottom: 2px solid #B1BCFD;
+}
+
+    .ContentRight input[type="checkbox"]
+    {
+        width: 15px;
+        height: 15px;
+    }
+
+.ContentCheckBox
+{
+    margin-left: 50px;
+    text-align: left;
+    overflow-y: auto;
+}
+
+.SmallDivCheckBox
+{
+    margin-right: 85px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.SaveRole
+{
+    width: 74px;
+    height: 21px;
+    border: none;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    background: url(../image/btn_save_2.png) no-repeat left;
+}
+
+    .SaveRole:hover
+    {
+        background: url(../image/btn_save_1.png) no-repeat left;
+    }
+/*角色管理End*/
+
+
+/*zTree按钮*/
+
+.ztree li span.button.edit
+{
+    background: url(../image/btn_zTree_Edit.png) no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.ztree li span.button.add
+{
+    background: url(../image/btn_zTree_Add.png) no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.ztree li span.button.remove
+{
+    background: url(../image/btn_zTree_Del.png) no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.floorList .ztree li a.curSelectedNode
+{
+    padding-top: 0px;
+    background-color: none;
+    color: black;
+    height: 16px;
+    border: 1px #FFB951 solid;
+    opacity: 0.8;
+}
+
+#treeDIV .ztree li a.curSelectedNode
+{
+    padding-top: 0px;
+    background-color: #485AEA;
+    color: #ffffff;
+    height: 20px;
+    border: 1px #FFB951 solid;
+    opacity: 0.8;
+}
+
+#uploadTreeDIVCreate .ztree li a.curSelectedNode
+{
+    padding-top: 0px;
+    background-color: #485AEA;
+    color: #ffffff;
+    height: 20px;
+    border: 1px #FFB951 solid;
+    opacity: 0.8;
+}
+
+#MobileFileDIVCreate .ztree li a.curSelectedNode
+{
+    padding-top: 0px;
+    background-color: #485AEA;
+    color: #ffffff;
+    height: 20px;
+    border: 1px #FFB951 solid;
+    opacity: 0.8;
+}
+
+
+
+/*工程图片*/
+
+.gctpImg
+{
+    border: none;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: url(../image/jia.png) no-repeat left;
+}
+
+    .gctpImg:hover
+    {
+        background: url(../image/jia_1.png) no-repeat left;
+    }
+
+#upload:hover
+{
+    background: url(../image/jia_1.png) no-repeat left;
+}
+
+#deleteimg
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 140px;
+    z-index: 999;
+    border: none;
+    cursor: pointer;
+    background: url(../image/delete_4.png) no-repeat left;
+}
+
+    #deleteimg:hover
+    {
+        background: url(../image/delete_3.png) no-repeat left;
+    }
+
+
+#resourceTypeUl li:hover
+{
+    background-color: #485AEA;
+    color: #fff;
+}
+
+.pageLeft
+{
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border: none;
+    background: url(../image/you-1.png)no-repeat left;
+}
+
+.pageRight
+{
+    float: right;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: url(../image/zuo-1.png)no-repeat left;
+}
+
+.pageLeft:hover
+{
+    background: url(../image/you-2.png)no-repeat left;
+}
+
+.pageRight:hover
+{
+    background: url(../image/zuo-2.png)no-repeat left;
+}
+
+
+/*设备管理*/
+
+.EquipmentInfoTableTR
+{
+    background-color: #EAF2FF;
+    font-size: 14px;
+    color: #6D89B9;
+    height: 40px;
+    font-weight: 600;
+}
+
+.EquipmentInfoTable tr td
+{
+    border-right: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.EquipmentInfoTable
+{
+    table-layout: fixed;
+    border-collapse: collapse;
+    float: left;
+    width: 100%;
+}
+
+
+.erweima
+{
+    width: 152px;
+    height: 28px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: url(../image/btn-jia.png) no-repeat left;
+    border: 0;
+}
+
+    .erweima:hover
+    {
+        background: url(../image/btn-jia-Up.png) no-repeat left;
+    }
+
+
+
+
+.Introduction
+{
+    width: 37px;
+    height: 18px;
+    border: 0;
+    background: url(../image/icon_12_1.png) no-repeat left;
+}
+
+    .Introduction:hover
+    {
+        background: url(../image/icon_12_2.png) no-repeat left;
+    }
+
+.Export
+{
+    width: 37px;
+    height: 18px;
+    border: 0;
+    background: url(../image/icon_13_1.png) no-repeat left;
+}
+
+    .Export:hover
+    {
+        background: url(../image/icon_13_2.png) no-repeat left;
+    }
+
+#jbxxDiv table tr td
+{
+    width: 30%;
+    text-align: left;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#jbxxDiv table tr
+{
+    height: 40px;
+}
+
+
+
+.GongNenemenu
+{
+    width: 88px;
+    height: 21px;
+    background: url(../image/icon-功能菜单.png) no-repeat left;
+    border: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.uploadFile
+{
+    width: 87px;
+    height: 25px;
+    background: url(../image/btn_1.png) no-repeat left;
+    border: 0;
+    float: left;
+    margin-bottom: 20px;
+}
+
+    .uploadFile:hover
+    {
+        background: url(../image/btn_1-1.png) no-repeat left;
+    }
+
+.EqConfirm
+{
+    width: 87px;
+    height: 25px;
+    border: none;
+    float: right;
+    margin-top: 10px;
+    background: url(../image/btn-2.png) no-repeat left;
+}
+
+    .EqConfirm:hover
+    {
+        background: url(../image/btn-上移.png) no-repeat left;
+    }
+
+.EqDetailed
+{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: url(../image/btn-xiangxi.png) no-repeat left;
+}
+
+    .EqDetailed:hover
+    {
+        background: url(../image/btn-xiangx-1.png) no-repeat left;
+    }
+
+.EqDetailed1
+{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: url(../image/btn-xiangxi.png) no-repeat;
+}
+
+    .EqDetailed1:hover
+    {
+        background: url(../image/btn-xiangx-1.png) no-repeat;
+    }
+
+.outku
+{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: url(../image/icon_ruku.png) no-repeat;
+    margin-left: 5px;
+}
+
+    .outku:hover
+    {
+        background: url(../image/icon_ruku_1.png) no-repeat;
+    }
+
+.joinku
+{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: url(../image/icon_chuku.png) no-repeat;
+    margin-left: 5px;
+}
+
+    .joinku:hover
+    {
+        background: url(../image/icon_chuku_1.png) no-repeat;
+    }
+
+#ruku
+{
+    width: 75px;
+    height: 25px;
+    background: url(../image/btn_rk.png) no-repeat;
+    border: none;
+}
+
+    #ruku:hover
+    {
+        background: url(../image/btn_rk_上移.png) no-repeat;
+    }
+
+#chuku
+{
+    width: 75px;
+    height: 25px;
+    background: url(../image/btn_ck.png) no-repeat;
+    border: none;
+}
+
+    #chuku:hover
+    {
+        background: url(../image/btn_ck_上移.png) no-repeat;
+    }
+
+#rukucel
+{
+    width: 59px;
+    height: 25px;
+    background: url(../image/btn_cancel_01.png) no-repeat;
+    border: none;
+}
+
+    #rukucel:hover
+    {
+        background: url(../image/btn_cancel_02.png) no-repeat;
+    }
+/*设备管理的详细页面*/
+.Eqfanhui
+{
+    width: 60px;
+    height: 25px;
+    border: none;
+    margin: 5px;
+    background: url(../image/btn-b.png) no-repeat left;
+}
+
+    .Eqfanhui:hover
+    {
+        background: url(../image/btn-b-1.png) no-repeat left;
+    }
+
+.jbxxTable table
+{
+    width: 100%;
+    float: left;
+    margin-left: 18px;
+}
+
+    .jbxxTable table tr
+    {
+        height: 40px;
+    }
+
+        .jbxxTable table tr td
+        {
+            border: 1px solid #EFEFEF;
+        }
+
+/*生成二维码*/
+.GenerateQR
+{
+    width: 106px;
+    height: 28px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: url(../image/btn_mo_xiayi.png) no-repeat left;
+    border: 0;
+}
+
+    .GenerateQR:hover
+    {
+        background: url(../image/btn_mo_shangyi.png) no-repeat left;
+    }
+
+.jxAdd
+{
+    width: 62px;
+    height: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: url(../image/btn-jixu.png) no-repeat left;
+    border: 0;
+}
+
+    .jxAdd:hover
+    {
+        background: url(../image/btn-jixu-shangyi.png) no-repeat left;
+    }
+
+
+.listDelete
+{
+    width: 92px;
+    height: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: url(../image/btn-cong.png) no-repeat left;
+    border: 0;
+}
+
+    .listDelete:hover
+    {
+        background: url(../image/btn-cong-shangyi.png) no-repeat left;
+    }
+
+/*验收管理*/
+
+.addAcceptance
+{
+    width: 83px;
+    height: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: url(../image/btn-xin.png) no-repeat left;
+    border: 0;
+}
+
+    .addAcceptance:hover
+    {
+        background: url(../image/btn-xin-1.png) no-repeat left;
+    }
+/*开箱验收的详细界面*/
+.AcceptanceTableDetailCs
+{
+    background-color: #fff;
+    width: 100%;
+    height: 22%;
+    border: 1px solid #DFDFDF;
+}
+
+    .AcceptanceTableDetailCs input
+    {
+        float: left;
+        width: 230px;
+        height: 23px;
+        color: #27262B;
+        margin-left: 65px;
+    }
+
+.AcceptanceTableDetailCsEvenTD
+{
+    text-align: right;
+    color: #000000;
+    width: 10%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.AcceptanceTableDetailCsOddTD
+{
+    text-align: left;
+    padding-left: 10px;
+    width: 35%;
+}
+
+/*安装验收*/
+#jbxxTable tr
+{
+    height: 40px;
+}
+
+    #jbxxTable tr td
+    {
+        border: 1px solid #EFEFEF;
+    }
+
+#jcjcTable tr
+{
+    height: 25px;
+}
+
+    #jcjcTable tr td
+    {
+        border: 1px solid #EFEFEF;
+    }
+
+#jcjcTable input
+{
+    height: 27px;
+    width: 185px;
+    float: left;
+}
+
+.tdLeft
+{
+    text-align: left;
+    padding-left: 120px;
+}
+
+.TreeDivMax
+{
+    border-right: 1px solid #E6EEFC;
+    margin-left: 195px;
+}
+
+
+/*质量与安全*/
+.QSuploadFile
+{
+    width: 120px;
+    height: 33px;
+    background: url(../image/QualitySafety/btn_上传文件.png) no-repeat left;
+    border: 0;
+    float: left;
+}
+
+    .QSuploadFile:hover
+    {
+        background: url(../image/QualitySafety/btn_上传文件_上移.png) no-repeat left;
+    }
+
+.QSxmgx table
+{
+    width: 100%;
+}
+
+    .QSxmgx table tr
+    {
+        height: 40px;
+    }
+
+.QSImage
+{
+    width: 86px;
+    height: 28px;
+    border: none;
+    background: url(../image/QualitySafety/btn_tp_2.png)no-repeat left;
+}
+/*.QSImage:hover
+    {
+         background: url(../image/QualitySafety/btn_tp_1.png)no-repeat left;
+    }*/
+.QSVideo
+{
+    width: 86px;
+    height: 28px;
+    border: none;
+    background: url(../image/QualitySafety/btn_sp_2.png)no-repeat left;
+}
+/*.QSVideo:hover
+    {
+        background: url(../image/QualitySafety/btn_sp_2.png)no-repeat left;
+    }*/
+
+.tag_index ul li
+{
+    height: 32px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    border-left: none;
+    margin-top: 5px;
+    float: right;
+}
+
+
+.QSimgdeleteUser
+{
+    width: 18px;
+    height: 18px;
+    border: 0;
+    margin: 7px;
+    background: url(../image/QualitySafety/icon_de.png) no-repeat left;
+    cursor: pointer;
+}
+
+    .QSimgdeleteUser:hover
+    {
+        background: url(../image/QualitySafety/icon_de_上移.png) no-repeat left;
+    }
+
+.QSattributeEdit
+{
+    height: 18px;
+    width: 18px;
+    background: url(../image/QualitySafety/icon_bj.png) no-repeat;
+    border: none;
+    margin-left: 15px;
+    padding-left: 22px;
+    cursor: pointer;
+}
+
+    .QSattributeEdit:hover
+    {
+        background: url(../image/QualitySafety/icon_bj_上移.png) no-repeat;
+    }
+/*未选中*/
+.QSimgCheck
+{
+    height: 20px;
+    width: 20px;
+    background: url(../image/QualitySafety/g.png) no-repeat;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+/*选中*/
+.QSimgCheckOk
+{
+    height: 20px;
+    width: 20px;
+    background: url(../image/QualitySafety/g_ok.png) no-repeat;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.ImageDivMax
+{
+    width: 180px;
+    margin-top: 20px;
+    position: relative;
+    margin-right: 15px;
+    height: 170px;
+    float: left;
+}
+
+.ImageParentDiv
+{
+    width: 180px;
+    position: absolute;
+    display: none;
+    margin-right: 15px;
+    background-color: #D7E9FD;
+    margin-bottom: 20px;
+    height: 170px;
+    float: left;
+    border: 1px solid #e2dfdf;
+}
+
+.BtnDeleteOrEditDiv
+{
+    display: none;
+    opacity: 0.75;
+    width: 168px;
+    height: 30px;
+    background-color: black;
+    margin: 6px;
+    margin-top: 105px;
+    text-align: right;
+}
+
+.QsDialogWindow
+{
+    height: 27px;
+    width: 200px;
+    border: 1px solid #DBDBDB;
+}
+
+#QSdialogCreate table tr td
+{
+    font-size: 12px;
+    color: black;
+    font-family: "宋体";
+}
+
+.DialogUploadImage
+{
+    width: 198px;
+    height: 80px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    border: none;
+    background: url(../image/QualitySafety/btn_xzwj_1.png) no-repeat;
+}
+
+    .DialogUploadImage:hover
+    {
+        background: url(../image/QualitySafety/btn_xzwj_上移.png) no-repeat;
+    }
+
+.AleftDedail
+{
+    width: 33px;
+    height: 62px;
+    position: absolute;
+    /*left: 197px;*/
+    border: none;
+    background: url(../image/QualitySafety/btn_left_1.png) no-repeat;
+}
+
+    .AleftDedail:hover
+    {
+        background: url(../image/QualitySafety/btn_left_上移.png) no-repeat;
+    }
+
+.ARightDedail
+{
+    width: 33px;
+    height: 62px;
+    position: absolute;
+    margin-left: 50px;
+    border: none;
+    background: url(../image/QualitySafety/btn_right_1.png) no-repeat;
+}
+
+    .ARightDedail:hover
+    {
+        background: url(../image/QualitySafety/btn_right_上移.png) no-repeat;
+    }
+
+/*编辑文件*/
+.editInput
+{
+    width: 500px;
+    height: 35px;
+    border: 1px solid #DBDBDB;
+}
+
+.FileEdit
+{
+    border: none;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.textareaEditFile
+{
+    width: 500px;
+    height: 150px;
+    border: 1px solid #DBDBDB;
+}
+
+.QSxmgxEdit table
+{
+    width: 100%;
+}
+
+    .QSxmgxEdit table tr
+    {
+        height: 55px;
+    }
+
+#floorDiv tr td
+{
+    border-bottom: 1px solid #DBDBDB;
+    border-right: 1px solid #DBDBDB;
+    text-align: center;
+    width: 250px;
+}
+
+.deleteEdit
+{
+    border: none;
+    width: 18px;
+    position: absolute;
+    margin: 20px;
+    margin-left: 500px;
+    height: 18px;
+    background: url(../image/QualitySafety/close_1.png);
+}
+
+    .deleteEdit:hover
+    {
+        background: url(../image/QualitySafety/close_上移.png);
+    }
+
+/*模型设计*/
+#btnModel
+{
+    width: 70px;
+    height: 25px;
+    background: url(../image/ModelManage/bm.png) no-repeat left;
+    border: none;
+}
+
+    #btnModel:hover
+    {
+        background: url(../image/ModelManage/bm_sy.png) no-repeat left;
+    }
+
+
+/*新模型页面*/
+
+.ShikouManage
+{
+    width: 73px;
+    height: 19px;
+    border: none;
+    background: url(../image/NewModelManage/btn_7.png) no-repeat left;
+    margin-top: 15px;
+}
+
+    .ShikouManage:hover
+    {
+        background: url(../image/NewModelManage/btn_7_1.png) no-repeat left;
+    }
+
+.jinduSelect
+{
+    width: 73px;
+    height: 19px;
+    border: none;
+    background: url(../image/NewModelManage/btn_8.png) no-repeat left;
+    margin-top: 15px;
+}
+
+    .jinduSelect:hover
+    {
+        background: url(../image/NewModelManage/btn_8_1.png) no-repeat left;
+    }
+
+
+.zhilianganquan
+{
+    width: 73px;
+    height: 19px;
+    border: none;
+    background: url(../image/NewModelManage/btn_9.png) no-repeat left;
+    margin-top: 15px;
+}
+
+    .zhilianganquan:hover
+    {
+        background: url(../image/NewModelManage/btn_9_1.png) no-repeat left;
+    }
+
+
+.resourceSelect
+{
+    width: 73px;
+    height: 19px;
+    border: none;
+    background: url(../image/NewModelManage/btn_10.png) no-repeat left;
+    margin-top: 15px;
+}
+
+    .resourceSelect:hover
+    {
+        background: url(../image/NewModelManage/btn_10_1.png) no-repeat left;
+    }
+
+.goujianshuxing
+{
+    width: 73px;
+    height: 19px;
+    border: none;
+    background: url(../image/NewModelManage/btn_11.png) no-repeat left;
+    margin-top: 15px;
+}
+
+    .goujianshuxing:hover
+    {
+        background: url(../image/NewModelManage/btn_11_1.png) no-repeat left;
+    }
+
+.GongChengliang
+{
+    width: 80px;
+    height: 19px;
+    border: none;
+    background: url(../image/NewModelManage/btn_20.png) no-repeat left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+    .GongChengliang:hover
+    {
+        background: url(../image/NewModelManage/btn_20_1.png) no-repeat left;
+    }
+
+.ManageFrom
+{
+    background: #ECEDEF;
+    width: 12%;
+    display: none;
+    float: left;
+}
+
+/*自定义楼层样式*/
+.btnEditDefFloor
+{
+    width: 22px;
+    height: 16px;
+    border: none;
+    vertical-align: middle;
+    background: url(../image/ModelDefineFloor/编辑-.png) no-repeat left;
+}
+
+    .btnEditDefFloor:hover
+    {
+        cursor: pointer;
+        /*background: url(../image/ModelManage/icon_7_2.png) no-repeat left;*/
+    }
+
+.btnDeleteDefFloor
+{
+    width: 14px;
+    height: 16px;
+    border: none;
+    vertical-align: middle;
+    background: url(../image/ModelDefineFloor/删除.png) no-repeat left;
+}
+
+    .btnDeleteDefFloor:hover
+    {
+        cursor: pointer;
+        /*background: url(../image/ModelManage/delete_1.png) no-repeat left;*/
+    }
+
+.btnAddFloorOk
+{
+    height: 24px;
+    width: 50px;
+    border: none;
+    vertical-align: middle;
+    background: url(../image/ModelDefineFloor/确定.png) no-repeat left;
+}
+
+    .btnAddFloorOk:hover
+    {   
+        cursor:pointer;
+        background: url(../image/ModelDefineFloor/确定hov.png) no-repeat left;
+    }
+
+.btnAddFloorCancel
+{
+    height: 24px;
+    width: 50px;
+    border: none;
+    vertical-align: middle;
+    background: url(../image/ModelDefineFloor/取消.png) no-repeat left;
+}
+
+    .btnAddFloorCancel:hover
+    {   
+        cursor:pointer;
+        background: url(../image/ModelDefineFloor/取消hov.png) no-repeat left;
+    }
+
+.floorDataDiv
+{
+    cursor: pointer;
+    background-color: #FAFAFD;
+    border-bottom: 1px solid #fff;
+    width: 220px;
+    height: 30px;
+}
+
+.floorNameDiv
+{
+    float: left;
+    text-align: left;
+    margin-left: 20px;
+    height: 30px;
+    line-height: 30px;
+    width: 130px;
+    font-size: 15px;
+}
+
+.defFloorOpDiv
+{
+    float: left;
+    width: 70px;
+    line-height: 30px;
+    display: none;
+}
+
+#linkFloorTable tr
+{
+    height: 25px;
+}
+
+.btnAddDefineFloor
+{
+    display: block;
+    float: left;
+    height: 20px;
+    color: #485aea;
+    vertical-align: middle;
+}
+
+
+/*构件信息提示框*/
+#compoentInfoTips
+{
+    text-align: left;
+    display: none;
+    width: 168px;
+    height: 104px;
+    position: absolute;
+    background: url(../image/NewModelManage/tishi.png) no-repeat left;
+    opacity: 0.9;
+    z-index: 1000;
+}
+
+#componentInfos
+{
+    font-size: 14px;
+    margin: 20px 10px 0px 10px;
+    height: 54px;
+    color: #FEFEFE;
+    word-break: break-all;
+}
+
+.engineerinThOrTd
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    padding-left: 0;
+    text-align: center;
+    border: 1px solid #d6d6d6;
+}

@@ -1,0 +1,246 @@
+﻿body
+{
+}
+
+input
+{
+    outline: none;
+}
+
+.btnTopTemplate
+{
+    border: none;
+    width: 130px;
+    height: 78px;
+    cursor: pointer;
+}
+
+.ycjk
+{
+    background: url('../Images/首页/yckz_tab.png');
+}
+
+.ycjkSelect
+{
+    background: url('../Images/首页/yckz_tab_selected.png');
+}
+
+.ycjk:hover
+{
+    background: url('../Images/首页/yckz_tab_selected.png');
+}
+
+.fzjz
+{
+    background: url('../Images/首页/fzjz_tab.png');
+}
+
+    .fzjz:hover
+    {
+        background: url('../Images/首页/fzjz_tab_selected.png');
+    }
+
+.fzjzSelect
+{
+    background: url('../Images/首页/fzjz_tab_selected.png');
+}
+
+.czsy
+{
+    background: url('../Images/首页/cdyy_tab.png');
+}
+
+    .czsy:hover
+    {
+        background: url('../Images/首页/cdyy_tab_selected.png');
+    }
+
+.czsySelect
+{
+    background: url('../Images/首页/cdyy_tab_selected.png');
+}
+
+.wlyx
+{
+    background: url('../Images/首页/wlyx_tab.png');
+}
+
+    .wlyx:hover
+    {
+        background: url('../Images/首页/wlyx_tab_selected.png');
+    }
+
+.wlyxSelect
+{
+    background: url('../Images/首页/wlyx_tab_selected.png');
+}
+
+.dsjfx
+{
+    background: url('../Images/首页/dsjfx_tab.png');
+}
+
+    .dsjfx:hover
+    {
+        background: url('../Images/首页/dsjfx_tab_selected.png');
+    }
+
+.dsjfxSelect
+{
+    background: url('../Images/首页/dsjfx_tab_selected.png');
+}
+
+.contentTitleDiv
+{
+    height: 55px;
+    background-color: #fff;
+    margin: 20px 30px 10px 30px;
+    border-radius: 5px;
+    /*box-shadow: 2px 2px 2px #F1F1F1;*/
+    border-bottom: 2px solid #DBDCDE;
+    border-right: 1px solid #DBDCDE;
+    border-left: 1px solid #DBDCDE;
+    border-top: 0px;
+}
+
+.divTitleA
+{
+    width: 120px;
+    height: 55px;
+    font-size: 16px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.divTitleASelct
+{
+    border-top: 2px solid #549215;
+    border-left: 1px solid #DBDBDB;
+    border-right: 1px solid #DBDBDB;
+    background: #fff;
+}
+
+.contentTitleDiv a
+{
+    width: 120px;
+    cursor: pointer;
+    text-decoration: none;
+    float: left;
+}
+
+    .contentTitleDiv a:hover
+    {
+        height: 55px;
+        background: #fff;
+        color: #8BB562;
+        border-top: 2px solid #549215;
+        border-left: 1px solid #DBDBDB;
+        border-right: 1px solid #DBDBDB;
+    }
+
+
+/*按钮样式*/
+.btnTemplate
+{
+    border: none;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    background: #fff;
+    margin-right: 15px;
+}
+
+.divTemplate
+{
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    width: 100px;
+    height: 27px;
+    line-height:24px;
+    background: #fff;
+    margin-right: 15px;
+    text-align:center;
+    float:left;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+    .btnTemplate:hover
+    {
+        color: #fff;
+        background: #539214;
+    }
+    .divTemplate:hover
+    {
+        color: #fff;
+        background: #539214;
+    }
+        .divTemplateSelect
+    {
+        color: #fff;
+        background: #539214;
+    }
+
+.btnTemplateA
+{
+    text-decoration: none;
+    border: none;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    background: #fff;
+    margin-right: 15px;
+    display: block;
+    line-height: 26px;
+    float: right;
+}
+
+    .btnTemplateA:hover
+    {
+        text-decoration: none;
+        color: #fff;
+        background: #539214;
+    }
+
+/*白框内容div样式*/
+.FrameDiv
+{
+    background-color: #fff;
+    border-radius: 8px;
+    height:100%;
+}
+
+.lilabel
+{
+    vertical-align: middle;
+    margin-left: 15px;
+    cursor:pointer;
+        overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100px;
+}
+
+/*开启*/
+.power_11
+{
+    background: url(../Images/首页/on_pressed.png);
+}
+
+/*开启禁用*/
+.power_10
+{
+    background: url(../Images/首页/on_disabled.png);
+}
+/*关闭*/
+.power_01
+{
+    background: url(../Images/首页/off_default.png);
+}
+
+/*关闭禁用*/
+.power_00
+{
+    background: url(../Images/首页/off_disabled.png);
+}

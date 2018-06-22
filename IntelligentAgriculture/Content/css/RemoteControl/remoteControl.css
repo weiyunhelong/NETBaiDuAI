@@ -1,0 +1,100 @@
+﻿
+/*设备列表容器*/
+.sbDivList
+{
+    width: 960px;
+    /*height:560px;*/
+    margin: 30px auto 0 auto;
+    overflow: hidden;
+}
+
+.sbDiv
+{
+    float: left;
+    width: 160px;
+    height: 280px;
+}
+
+.sbImgDiv
+{
+    position: relative;
+    text-align: center;
+    height:85px;
+}
+
+.sbNameDiv
+{
+    font-size: 16px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.sbOpenCloseDiv
+{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.btnOpenClose
+{
+    width: 87px;
+    height: 34px;
+    border: none;
+}
+
+/*勾选*/
+.divCheck
+{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display:none;
+}
+
+    .divCheck:hover
+    {
+        cursor: pointer;
+    }
+
+.divCheckNo
+{
+    background: url(../../Images/环境监测/check_box.png);
+}
+
+.divCheckYes
+{
+    background: url(../../Images/环境监测/check.png);
+}
+
+/*全选*/
+.checkAllNo
+{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: url(../../Images/环境监测/check_box.png);
+}
+
+.checkAllYes
+{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: url(../../Images/环境监测/check.png);
+}
+
+#divCheckAll
+{
+    float: left;
+    margin: 20px 0 0 25px;
+    display:none;
+}
+
+.btnGroup1
+{
+    display:none;
+}

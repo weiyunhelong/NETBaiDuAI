@@ -1,0 +1,217 @@
+﻿body
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+    font-family: "雅黑";
+}
+
+.EquipmentAttributeEdit
+{
+    border: 1px solid #C9C9C9;
+    padding: 4px 10px 4px 10px;
+    float: left;
+    display: none;
+}
+
+.EquipmentAttributeEditBlock
+{
+    border: 1px solid #C9C9C9;
+    padding: 4px 10px 4px 10px;
+    float: left;
+    display: block;
+}
+
+.EquipmentAttributeEdit:hover
+{
+    border: 1px solid #4A90FF;
+}
+
+
+
+.AttributeTable tr td
+{
+    color: #E7EAFB;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.AttributeValueTable tr td
+{
+    height: 45px;
+    border: 1px solid #E3E3E3;
+    font-size: 14px;
+    text-align: center;
+}
+
+input[type="text"],.editInput
+{
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    font-size:14px;
+    margin-left:auto; 
+margin-right:auto; 
+border:1px solid #D2D2D2;
+}
+
+
+.equipmentSaveBtn
+{
+    width: 65px;
+    height: 28px;
+    float: left;
+    border: none;
+    margin-right: 10px;
+    background: url(../../style/image/btn_4.png);
+    display: none;
+}
+
+    .equipmentSaveBtn:hover
+    {
+        background: url(../../style/image/btn_4_sy.png);
+    }
+/*选项类型下拉框*/
+.btnSelfSysType
+{   
+    margin-top:8px;
+    width:57px;
+    height:26px;
+    border:1px solid #C9C9C9;
+    background:#fff;
+    
+}
+
+    .btnSelfSysType:hover
+    {
+         border:1px solid #4A90FF;
+    }
+
+.txtNewSystemType
+{
+    height:25px;
+    width:160px;
+}
+
+#sysTypeUl li:hover
+{
+    background-color: #485AEA;
+    color: #fff;
+}
+
+#btnCreateSysType:hover
+{
+    background-color:#485AEA;
+    
+}
+
+/*设备台账*/
+  .tagDiv_select
+    {
+        float: left;
+        height: 51px;
+        width: 140px;
+        text-align: center;
+        font-size: 14px;
+        color: #000000;
+        background-color: #ffffff;
+        margin-left: 10px;
+        border: 1px solid #C9C9C9;
+        border-bottom: none;
+        border-top: none;
+        font-family: "宋体";
+        cursor:default;
+    }
+
+    .tgaDiv
+    {
+        width: 140px;
+        float: left;
+        text-align: center;
+        color: #4F4F4E;
+        font-size: 14px;
+        font-family: 宋体;
+        cursor:default;
+    }
+
+    .tag_index_tga
+    {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 14px;
+        color: #2a43c1;
+        font-weight: 700;
+        /*border-top: 2px solid #AEBFF5;*/
+        border-bottom: 1px solid #C9C9C9;
+        text-align: left;
+    }
+
+    .WidthAuto
+    {
+        color: #4F4F4F;
+        border: 1px solid #D2D2D2;
+        height: 25px;
+        width: 95%;
+        text-align:left;
+        
+    }
+
+    .EquipmentAssembly
+    {
+        height: 35px;
+        border-radius: 4px;
+        padding-left: 10%;
+        font-size: 14px;
+        background: #FBFCFE;
+        border: 1px solid #D2D2D2;
+        width: 95%;
+         color: #4F4F4F;
+    }
+
+    /*二维码*/
+     .PrintInput
+    {
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+        background: #FBFCFE;
+        border: 1px solid #CAC9C7;
+        margin-left: 10px;
+        border-radius: 4px;
+        font-family: "宋体";
+    }
+
+        .PrintInput:hover
+        {
+            background: #485AEA;
+            color: #ffffff;
+        }
+
+    .QRCodeImgDiv label
+    {
+        font-size: 14px;
+        text-align:center;
+    }
+
+    .selectedImg
+    {
+        background: url(../image/QualitySafety/g.png);
+        height: 22px;
+        width: 22px;
+        position: absolute;
+        margin: 128px 0 0 128px;
+    }
+        .selectedImg:hover
+        {
+              background: url(../image/QualitySafety/g_ok.png);
+        }
+    .selectedImgOK
+    {
+        background: url(../image/QualitySafety/g_ok.png);
+                height: 22px;
+        width: 22px;
+        position: absolute;
+        margin: 128px 0 0 128px;
+    }

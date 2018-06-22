@@ -1,0 +1,219 @@
+﻿html {
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+}
+
+div, ul, li, h1, h2, h3, p, span, input, dl, dt, dd, table, form {
+    border: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*font-size: 14px;*/
+    font-family: "Microsoft YaHei";
+    outline: none;
+}
+
+    input[type=button] {
+        cursor: pointer;
+        outline: 0;
+    }
+
+button {
+    cursor: pointer;
+    outline: 0;
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
+
+select {
+    vertical-align: middle;
+}
+
+label {
+    vertical-align: middle;
+}
+
+input[type=checkbox] {
+    vertical-align: middle;
+}
+
+button, input, select, textarea {
+    line-height: normal;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a :hover {
+        text-decoration: none;
+    }
+
+.clear {
+    clear: both;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    overflow-y:auto;
+}
+
+.Box {
+    /*background: #fff;
+    margin: 20px 0px;*/
+}
+ .box-tool {
+        padding: 0px 20px;
+    }
+
+    .box-left {
+        float: left;
+    }
+
+    .box-right {
+        float: right;
+    }
+
+        .box-right input {
+            float: right;
+        }
+
+    .uploadify {
+        float: right;
+    }
+.box-nr {
+    padding: 10px 20px 0px 20px;
+}
+
+.Content {
+    padding-top: 15px;
+}
+
+.boxText {
+    border: 1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+    width: 188px;
+    border-radius: 2px 2px;
+    padding: 0px 5px;
+}
+
+.boxSearch {
+    margin: 0px 10px 0px 5px;
+    width: 30px;
+    height: 30px;
+    background: url("../../Images/其他/search_btn_default.png") no-repeat scroll right center;
+}
+
+.selectbox {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+.boxSearch:hover {
+    /*background: url("../../Images/其他/search_btn_default 拷贝.png") no-repeat scroll right center;*/
+}
+
+.tableList {
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+    .tableList tr {
+        border-bottom:1px solid #EFEFEF;
+    }
+    .tableList tr:hover {
+        background: #f4f4f4;
+        cursor: pointer;
+    }
+
+.tableHead {
+    background: #EEEEEE;
+    color: #333;
+    font-size: 14px;
+    border-bottom:none;
+}
+
+.listEdit {
+    width: 31px;
+    height: 31px;
+    background: url(../../Images/其他/edit_icon_default.png) no-repeat center center;
+}
+
+    .listEdit:hover {
+        background: url(../../Images/其他/edit_icon_selected.png) no-repeat center center;
+    }
+
+.listDel {
+    width: 31px;
+    height: 31px;
+    background: url(../../Images/其他/delete_icon_default.png) no-repeat center center;
+}
+
+    .listDel:hover {
+        background: url(../../Images/其他/delete_icon_selected.png) no-repeat center center;
+    }
+
+.boxAdd {
+    width: 80px;
+    height: 30px;
+    background: url(../../Images/其他/add_default_btn.png) no-repeat center center;
+    margin-left: 10px;
+}
+
+    .boxAdd:hover {
+        background: url(../../Images/其他/add_pressed_btn.png) no-repeat center center;
+    }
+
+.boxDown {
+    width: 80px;
+    height: 30px;
+    background: url(../../Images/其他/download_default_btn.png) no-repeat center center;
+    margin-left: 10px;
+}
+
+    .boxDown:hover {
+        background: url(../../Images/其他/download_pressed_btn.png) no-repeat center center;
+    }
+
+#ImportFarm {
+    width: 80px;
+    height: 30px;
+    background: url(../../Images/其他/Import_default_btn.png) no-repeat center center;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+    #ImportFarm:hover {
+        background: url(../../Images/其他/Import_pressed_btn.png) no-repeat center center;
+    }
+
+.boxDel {
+    width: 80px;
+    height: 30px;
+    background: url(../../Images/其他/plgl_default_btn.png) no-repeat center center;
+    margin-left: 10px;
+}
+
+    .boxDel:hover {
+        background: url(../../Images/其他/plgl_pressed_btn.png) no-repeat center center;
+    }
+
+    
+.listMove {
+    width: 31px;
+    height: 31px;
+    background: url(../../Images/其他/drag_icon_default.png) no-repeat center center;
+}
+
+    .listMove:hover {
+        background: url(../../Images/其他/drag_icon_selected.png) no-repeat center center;
+    }

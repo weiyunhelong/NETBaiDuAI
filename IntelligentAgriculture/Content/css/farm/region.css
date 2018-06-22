@@ -1,0 +1,165 @@
+﻿html {
+    height: 100%;
+    width: 100%;
+}
+
+div, ul, li, h1, h2, h3, p, span, input, dl, dt, dd, table, form {
+    border: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    outline: none;
+}
+
+    input[type=button] {
+        cursor: pointer;
+        outline: 0;
+    }
+
+button {
+    cursor: pointer;
+    outline: 0;
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
+
+select {
+    vertical-align: middle;
+}
+
+label {
+    vertical-align: middle;
+}
+
+input[type=checkbox] {
+    vertical-align: middle;
+}
+button, input, select, textarea {
+    line-height:normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a :hover {
+        text-decoration: none;
+    }
+
+.clear {
+    clear: both;
+}
+body {
+     margin: 0;
+    padding: 0;
+    height:100%;
+}
+.Box {
+    background:#fff;
+    /*margin:20px 0px;*/
+}
+
+    .Content {
+        /*padding-top: 30px;*/
+    }
+
+    .tableInfo {
+        width: 100%;
+        line-height: 40px;
+    }
+        .tableList {
+        width: 100%;
+        line-height: 40px;
+        text-align: center;
+    }
+        .tableList tr:hover {
+            background:#f4f4f4;
+            cursor:pointer;
+        }
+
+        .tableHover{
+            background:#f4f4f4;
+        }
+
+    .tableHead {
+        background: #EEEEEE;
+        color: #333;
+        font-size: 16px;
+    }
+
+    .farm-nr {
+        padding: 0px 10px;
+    }
+
+
+
+    .farm-top {
+        color: #fff;
+        background: #7cae4a;
+    }
+
+    .farm-xian {
+        color: #ecc117;
+        margin: 0px 5px 0px 10px;
+    }
+
+    .farm-title {
+        float: left;
+        font-size: 16px;
+    }
+
+    .farm-btn {
+        float: right;
+    }
+
+.addInfo {
+    width: 52px;
+height: 18px;
+background: url(../../Images/其他/add_icon_default.png) no-repeat center center;
+margin-right:5px;
+}
+.addInfo:hover {
+   background: url(../../Images/其他/add_icon_selected.png) no-repeat center center; 
+}
+
+.delInfo {
+    width: 52px;
+height: 18px;
+background: url(../../Images/其他/delete_icon_default2.png) no-repeat center center;
+margin-right:5px;
+}
+
+    .delInfo:hover {
+        background: url(../../Images/其他/delete_icon_selected2.png) no-repeat center center; 
+    }
+.moreInfo{
+    width: 52px;
+height: 18px;
+background: url(../../Images/其他/more_icon_default.png) no-repeat center center;
+margin-right:5px;
+}
+    .moreInfo:hover {
+        background: url(../../Images/其他/more_icon_selected.png) no-repeat center center;
+    }
+
+.listEdit {
+width: 31px;
+height: 31px;
+background: url(../../Images/其他/edit_icon_default.png) no-repeat center center;
+}
+    .listEdit:hover {
+        background: url(../../Images/其他/edit_icon_selected.png) no-repeat center center;
+    }
+
+.listDel {
+width: 31px;
+height: 31px;
+background: url(../../Images/其他/delete_icon_default.png) no-repeat center center;
+}
+    .listDel:hover {
+        background: url(../../Images/其他/delete_icon_selected.png) no-repeat center center;
+    }

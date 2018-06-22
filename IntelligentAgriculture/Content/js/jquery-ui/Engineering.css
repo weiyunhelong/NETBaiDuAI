@@ -1,0 +1,133 @@
+﻿  #QuaityUl li.QuaityLi_current
+    {
+        border-top: 3px solid #2a43c1;
+        background: #ffffff;
+    }
+
+    .list
+    {
+        width: 200px;
+        height: 200px;
+        overflow: auto;
+        position: absolute;
+        border: 1px solid #617775;
+        display: none;
+        background: none repeat scroll 0 0 #ffffff;
+        float: left;
+        z-index: 1000000;
+    }
+
+        .list ul li
+        {
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            line-height: 25px;
+            height: 25px;
+            /*border-top: 1px solid black;*/
+        }
+
+            .list ul li:hover
+            {
+                background: #1E90FF;
+            }
+
+            .list ul li input
+            {
+                float: left;
+                margin-top: 6px;
+            }
+
+            .list ul li span
+            {
+                float: left;
+                margin-left: 10px;
+                color: black;
+            }
+
+    ul
+    {
+        list-style: none outside none;
+    }
+
+    .seachDiv
+    {
+        height: 60px;
+        float: left;
+        margin: 20px 0 0 10px;
+    }
+    .seachRightDiv
+    {
+        height: 60px;
+        float: right;
+        margin: 20px 10px 0 0;
+    }
+.resourctTableTR td
+{
+    font-size:16px; font-weight:bold;color:black;
+}
+
+.inputAdd
+{
+    width:85%;
+    height:20px;
+
+}
+
+.porjectCancel
+{
+    width: 74px;
+    height: 21px;
+    border: none;
+    margin: 7px;
+    background: url(../image/btn_cancel_2.png) no-repeat left;
+}
+
+    .porjectCancel:hover
+    {
+        background: url(../image/btn_cancel_1.png);
+    }
+
+    .ProjectSaveBtn
+{
+    width: 74px;
+    height: 21px;
+    border: none;
+    margin: 7px;
+    background: url(../image/btn_save_2.png) no-repeat left;
+}
+
+    .ProjectSaveBtn:hover
+    {
+        background: url(../image/btn_save_1.png) no-repeat left;
+    }
+    .resourctTable tr td
+{
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    border-right:none;
+}
+    #searchdiv
+    {
+        position: absolute;
+        top: 0;
+        left:0;
+        background: #fff;
+        display: none;
+        width: 330px;
+        font-size: 14px;
+        text-align: left;
+        padding: 5px 5px 0 5px;
+        border: 1px solid #c4c4c4;
+        margin: 0;
+    }
+
+.trSelectClass
+{
+    background:#FFFF33;
+}
+
+#BtnCancel
+{
+    display:none;
+}

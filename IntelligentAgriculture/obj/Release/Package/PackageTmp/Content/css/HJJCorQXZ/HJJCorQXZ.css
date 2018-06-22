@@ -1,0 +1,145 @@
+﻿body
+{
+}
+
+.jcdSet
+{
+    border: none;
+    width: 132px;
+    height: 40px;
+    background: url(../../Images/环境监测/jcd_btn.png);
+}
+
+    .jcdSet:hover
+    {
+        background: url(../../Images/环境监测/jcd_pressed_btn.png);
+    }
+/*公共样式环境监测*/
+.titleTopDiv
+{
+    width: 60%;
+    height: 100%;
+    line-height: 75px;
+    font-size: 14px;
+    padding-left: 20px;
+    text-align: left;
+    float: left;
+}
+
+.containerDiv
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.dataDiv ul li
+{
+    width: 14%;
+    float: left;
+    height: 100%;
+    list-style-type: none;
+}
+
+.datablockDiv
+{
+    width: 155px;
+    height: 149px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.datablockDivZDY
+{
+    background: #ECECEC;
+}
+
+.datablockDiv img
+{
+    margin-top: 20px;
+}
+
+.spanKey
+{
+    margin-top: 15px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+.valueSpan
+{
+    font-size: 20px;
+    color: #FF8216;
+}
+
+.btntime
+{
+    border: none;
+    border: 1px solid #E8E8E8;
+    width: 70px;
+    height: 30px;
+    float: left;
+    background: #fff;
+}
+
+    .btntime:hover
+    {
+        color: #89B268;
+    }
+
+.btntimeSelect
+{
+    color: #89B268;
+}
+
+.txtTime
+{
+    width: 180px;
+    height: 30px;
+    border: 1px solid #E8E8E8;
+    margin-left: 20px;
+    float: left;
+    text-align: left;
+    padding-left: 5px;
+    background: #fff url(../../Images/环境监测/ico-rilir.png) no-repeat right;
+}
+
+.selectDiv
+{
+    height: 30px;
+    width: 180px;
+    border: 1px solid #E8E8E8;
+    float: left;
+    margin-left: 20px;
+}
+
+.checkBlock
+{
+    width: 15px;
+    height: 15px;
+    display: none;
+}
+
+.imgDiv
+{
+    width: 110px;
+    float: left;
+    margin-left: 15px;
+    height:90px;
+}
+
+.seachBtn
+{
+    margin: 0px 10px 0px 5px;
+    width: 30px;
+    height: 30px;
+    float:left;
+    background: url(../../Images/其他/search_btn_default.png) no-repeat scroll right center;
+}
+
+    .seachBtn:hover
+    {
+        background: url(../../Images/其他/search_btn_default_sy.png) no-repeat scroll right center;
+    }
